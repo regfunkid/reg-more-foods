@@ -1,7 +1,7 @@
 ---
 name: Create a Suggestion
 about: Do you have any questions or requests? Use this form to fill them.
-title: New Suggestion
+title: 'New Suggestion:'
 labels: suggestion
 assignees: regfunkid
 

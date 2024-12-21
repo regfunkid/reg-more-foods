@@ -1,7 +1,7 @@
 ---
 name: Create an Item Suggestion
 about: Suggest a new item to be added to Reg's More Foods!
-title: "(Name of item)"
+title: 'Item Suggestion: (Name of item)'
 labels: suggestion
 assignees: regfunkid
 

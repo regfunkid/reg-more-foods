@@ -1,8 +1,8 @@
 ---
 name: Create a Bug Report
 about: Found an issue or a bug? Use this form to explain what happened.
-title: 'Bug Report: '
-labels: bug, suggestion
+title: 'Bug Report: (Write text here)'
+labels: bug
 assignees: regfunkid
 
 ---

@@ -1,7 +1,7 @@
 ---
 name: Create a Food Suggestion
 about: Suggest a new food to be added to Reg's More Foods!
-title: "(Name of food)"
+title: 'Food Suggestion: (Name of Food)'
 labels: suggestion
 assignees: regfunkid
 
