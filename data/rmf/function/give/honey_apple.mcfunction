@@ -1,2 +1,0 @@
-clear @s knowledge_book[custom_data={item_id:honey_apple}] 1
-give @p minecraft:firework_star[minecraft:custom_model_data=137,food={nutrition:7,saturation:5,effects:[{effect: {id: "minecraft:absorption",amplifier:0, duration: 1200}},{effect: {duration: 600, amplifier: 0b, id: "minecraft:speed"},probability:0.4}]},minecraft:item_name='{"text":"Honeyed Apple"}']

@@ -1,2 +1,0 @@
-clear @s knowledge_book[custom_data={item_id:banana}] 1
-give @p minecraft:firework_star[custom_model_data=140,food={nutrition:4,saturation:2.4,can_always_eat:true},minecraft:item_name='{"text":"Banana"}']

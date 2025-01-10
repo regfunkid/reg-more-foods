@@ -1,2 +1,0 @@
-clear @s knowledge_book[custom_data={item_id:glow_filled_donut}] 1
-give @p minecraft:firework_star[minecraft:custom_model_data=114,food={nutrition:8,saturation:9,effects:[{effect: {id: "minecraft:glowing",duration: 100}}]},minecraft:item_name='{"text":"Filled Donut"}']

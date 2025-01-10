@@ -1,2 +1,0 @@
-clear @s knowledge_book[custom_data={item_id:blue_snow_cone}] 1
-give @p minecraft:firework_star[minecraft:custom_model_data=157,food={nutrition:3,saturation:2,can_always_eat:true,using_converts_to:{id:paper},effects:[{effect:{id:speed,duration:1200}}]},minecraft:item_name='{"text":"Blue Snow Cone"}']

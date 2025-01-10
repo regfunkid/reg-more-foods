@@ -1,2 +1,0 @@
-clear @s knowledge_book[custom_data={item_id:honey_ball}] 1
-give @p minecraft:slime_ball[minecraft:custom_model_data=138,food={nutrition:6,saturation:1.4,eat_seconds:2,effects:[{effect: {id: "minecraft:absorption",amplifier:1, duration: 1200}}]},minecraft:item_name='{"text":"Honeyball"}',lore=['{"text":"Slow to eat, but also doubles","color":"white","italic":false}','{"text":"as a slimeball for recipes!","color":"white","italic":false}']]

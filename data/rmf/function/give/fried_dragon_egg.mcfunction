@@ -1,2 +1,0 @@
-clear @s knowledge_book[custom_data={item_id:fried_dragon_egg}] 1
-give @p minecraft:firework_star[custom_model_data=124,food={nutrition:20,saturation:20,effects:[{effect:{id:"absorption",amplifier:4,duration:1200}},{effect:{id:"resistance",amplifier:3,duration:6000}},{effect:{id:"health_boost",amplifier:4,duration:6000}},{effect:{id:"saturation",amplifier:1,duration:20}}]},minecraft:item_name='{"text":"Fried Dragon Egg"}',rarity=epic]

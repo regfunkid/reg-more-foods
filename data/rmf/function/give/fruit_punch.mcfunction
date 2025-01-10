@@ -1,2 +1,0 @@
-clear @s knowledge_book[custom_data={item_id:fruit_punch}] 1
-give @p minecraft:honey_bottle[minecraft:custom_model_data=126,food={nutrition:6,saturation:7.2},minecraft:item_name='{"text":"Bottle of Fruit Punch"}']

@@ -1,2 +1,0 @@
-clear @s knowledge_book[custom_data={item_id:mac_and_cheese}] 1
-give @p minecraft:mushroom_stew[minecraft:custom_model_data=178,minecraft:food={nutrition:7,saturation:5,using_converts_to:{id:"minecraft:bowl"}},minecraft:item_name='{"text":"Bowl of Mac & Cheese"}',minecraft:max_stack_size=9]

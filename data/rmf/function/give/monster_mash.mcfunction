@@ -1,2 +1,0 @@
-clear @s knowledge_book[custom_data={item_id:monster_mash}] 1
-give @p minecraft:firework_star[minecraft:custom_model_data=127,food={nutrition:1,saturation:0,can_always_eat:true,effects:[{effect:{id:"minecraft:hunger",amplifier:99,duration:300}},{effect:{id:"minecraft:nausea",amplifier:1,duration:200}}]},minecraft:item_name='{"text":"Monster Mash","color":"red"}',lore=['{"text":"This looks AND smells awful.","color":"white","italic":false}','{"text":"Nothing good can come from eating this.","color":"white","italic":false}']]

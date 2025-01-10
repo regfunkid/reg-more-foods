@@ -1,2 +1,0 @@
-clear @s knowledge_book[custom_data={item_id:golden_apple_juice}] 1
-give @p minecraft:honey_bottle[minecraft:custom_model_data=99,food={nutrition:6,saturation:10.8,can_always_eat:true,effects:[{effect: {id: "minecraft:speed",amplifier:0, duration: 1200}},{effect: {id: "minecraft:regeneration",amplifier:1, duration: 100}},{effect: {id: "minecraft:absorption",amplifier:1, duration: 2400}}]},minecraft:item_name='{"text":"Bottle of Golden Apple Juice"}',rarity=rare]
