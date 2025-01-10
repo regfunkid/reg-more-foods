@@ -1,0 +1,71 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "morefoods:sandwich"
+      }
+    },
+	"has_bread": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bread" 
+		  }
+        ]
+      }
+	},
+	"has_cooked_meat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#morefoods:cooked_meats" 
+		  }
+        ]
+      }
+	},
+	"has_tomato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:beetroot" 
+		  }
+        ]
+      }
+	},
+	"has_cheese": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tropical_fish",
+            "components": {
+              "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 3.6
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+	  "has_bread",
+	  "has_cheese",
+	  "has_cooked_meat",
+	  "has_tomato"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "morefoods:sandwich"
+    ]
+  }
+}

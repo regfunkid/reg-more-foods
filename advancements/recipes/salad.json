@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "morefoods:salad"
+      }
+    },
+	"has_bowl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bowl" 
+		  }
+        ]
+      }
+	}
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+	  "has_bowl"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "morefoods:salad"
+    ]
+  }
+}

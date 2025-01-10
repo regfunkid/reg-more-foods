@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "crafted ice cream": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:ice_cream"
+      }
+    },
+    "crafted chocolate ice cream": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:chocolate_ice_cream"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafted ice cream",
+      "crafted chocolate ice cream"
+    ]
+  ],
+  "rewards": {
+    "function": "morefoods:item_refund"
+  }
+}

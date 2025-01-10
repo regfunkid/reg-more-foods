@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "morefoods:honey_cookie"
+      }
+    },
+	"has_honeycomb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:honeycomb" 
+		  }
+        ]
+      }
+    },
+	"has_wheat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wheat" 
+		  }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+	  "has_wheat",
+	  "has_honeycomb"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "morefoods:honey_cookie"
+    ]
+  }
+}

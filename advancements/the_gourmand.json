@@ -1,0 +1,532 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:custom_model_data": 117,
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "The Gourmand",
+    "description": "Eat every food added by the More Foods Datapack, and probably still be hungry somehow",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "morefoods:root",
+  "criteria": {
+    "90": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 90
+          }
+        }
+      }
+    },
+    "91": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 91
+          }
+        }
+      }
+    },
+    "92": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 92
+          }
+        }
+      }
+    },
+    "93": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 93
+          }
+        }
+      }
+    },
+    "94": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 94
+          }
+        }
+      }
+    },
+    "95": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 95
+          }
+        }
+      }
+    },
+    "96": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:honey_bottle",
+          "components": {
+            "minecraft:custom_model_data": 96
+          }
+        }
+      }
+    },
+    "97": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 97
+          }
+        }
+      }
+    },
+    "98": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:honey_bottle",
+          "components": {
+            "minecraft:custom_model_data": 98
+          }
+        }
+      }
+    },
+    "99": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:honey_bottle",
+          "components": {
+            "minecraft:custom_model_data": 99
+          }
+        }
+      }
+    },
+    "100": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:pumpkin_seeds",
+          "components": {
+            "minecraft:custom_model_data": 100
+          }
+        }
+      }
+    },
+    "101": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:mushroom_stew",
+          "components": {
+            "minecraft:custom_model_data": 101
+          }
+        }
+      }
+    },
+    "102": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 102
+          }
+        }
+      }
+    },
+    "103": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 103
+          }
+        }
+      }
+    },
+    "105": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:tropical_fish",
+          "components": {
+            "minecraft:food": {
+              "nutrition": 4,
+              "saturation": 3.6
+            }
+          }
+        }
+      }
+    },
+    "106": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 106
+          }
+        }
+      }
+    },
+    "107": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 107
+          }
+        }
+      }
+    },
+    "108": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 108
+          }
+        }
+      }
+    },
+    "109": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 109
+          }
+        }
+      }
+    },
+    "110": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:food": {
+              "nutrition": 2,
+              "saturation": 0.5,
+			  "can_always_eat": true
+            }
+          }
+        }
+      }
+    },
+    "111": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 111
+          }
+        }
+      }
+    },
+    "112": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 112
+          }
+        }
+      }
+    },
+    "113": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 113
+          }
+        }
+      }
+    },
+    "114": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 114
+          }
+        }
+      }
+    },
+    "115": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 115
+          }
+        }
+      }
+    },
+    "116": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 116
+          }
+        }
+      }
+    },
+    "117": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 117
+          }
+        }
+      }
+    },
+    "118": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 118
+          }
+        }
+      }
+    },
+    "119": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:honey_bottle",
+          "components": {
+            "minecraft:custom_model_data": 119
+          }
+        }
+      }
+    },
+    "120": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 120
+          }
+        }
+      }
+    },
+    "121": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 121
+          }
+        }
+      }
+    },
+    "122": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 122
+          }
+        }
+      }
+    },
+    "123": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 123
+          }
+        }
+      }
+    },
+    "124": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 124
+          }
+        }
+      }
+    },
+    "125": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 125
+          }
+        }
+      }
+    },
+    "126": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:honey_bottle",
+          "components": {
+            "minecraft:custom_model_data": 126
+          }
+        }
+      }
+    },
+    "127": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 127
+          }
+        }
+      }
+    },
+    "128": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 128
+          }
+        }
+      }
+    },
+    "129": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 129
+          }
+        }
+      }
+    },
+    "130": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:mushroom_stew",
+          "components": {
+            "minecraft:custom_model_data": 130
+          }
+        }
+      }
+    },
+    "131": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:mushroom_stew",
+          "components": {
+            "minecraft:custom_model_data": 131
+          }
+        }
+      }
+    },
+    "132": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 132
+          }
+        }
+      }
+    },
+    "133": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 133
+          }
+        }
+      }
+    },
+    "136": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:mushroom_stew",
+          "components": {
+            "minecraft:custom_model_data": 136
+          }
+        }
+      }
+    },
+    "137": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 137
+          }
+        }
+      }
+    },
+    "138": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:slime_ball",
+          "components": {
+            "minecraft:custom_model_data": 138
+          }
+        }
+      }
+    }
+  }
+}

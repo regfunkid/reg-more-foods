@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 2,
+    "components": {
+      "minecraft:custom_model_data": 95,
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 1.2,
+        "can_always_eat": true,
+        "eat_seconds": 1
+      },
+      "minecraft:item_name": "{\"text\":\"Slice of Apple Pie\",\"italic\":false}"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "kabob_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "weapon.mainhand": {
+                      "items": "minecraft:firework_star",
+                      "components": {
+                        "minecraft:custom_model_data": 135,
+                        "minecraft:damage": 2
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "morefoods:kabob_0"
+  }
+}

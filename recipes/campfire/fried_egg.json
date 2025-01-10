@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "components": {
+      "minecraft:custom_model_data": 90,
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 3
+      },
+      "minecraft:item_name": "{\"text\":\"Fried Egg\",\"italic\":false}"
+    }
+  }
+}

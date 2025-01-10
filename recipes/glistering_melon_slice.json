@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_nugget"
+    },
+    "X": {
+      "item": "minecraft:melon_slice"
+    }
+  },
+  "result": {
+    "id": "minecraft:glistering_melon_slice",
+    "count": 1,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation": 12
+      }
+    }
+  }
+}

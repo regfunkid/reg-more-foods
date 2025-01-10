@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:blasting",
+  "reggie_note": "This is maybe the most outrageous item i've added to this datapack. Enjoy!",
+  "category": "food",
+  "ingredient": {
+    "item": "minecraft:dragon_egg"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "components": {
+      "minecraft:custom_model_data": 124,
+      "minecraft:food": {
+        "nutrition": 20,
+        "saturation": 20,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:absorption",
+              "amplifier": 4,
+              "duration": 1200
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:resistance",
+              "amplifier": 3,
+              "duration": 6000
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:health_boost",
+              "amplifier": 4,
+              "duration": 6000
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:saturation",
+              "amplifier": 1,
+              "duration": 20
+            }
+          }
+        ]
+      },
+      "minecraft:item_name": "{\"text\":\"Fried Dragon Egg\"}",
+      "minecraft:rarity": "epic"
+    }
+  },
+  "cookingtime": 300
+}

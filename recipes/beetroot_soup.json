@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:beetroot"
+    }
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "count": 1,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 7.2,
+        "can_always_eat": true
+      },
+      "minecraft:max_stack_size": 8
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+	"has_sniffer_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sniffer_egg" 
+		  }
+        ]
+      }
+	}
+  },
+  "requirements": [
+    [
+	  "has_sniffer_egg"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "morefoods:blasting/sniffer_fried_egg"
+    ]
+  }
+}

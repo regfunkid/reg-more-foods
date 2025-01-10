@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:custom_model_data": 125
+      }
+    },
+    "title": "10,000 Calorie Meal",
+    "description": "Eat a Fried Sniffer Egg. \nIf it makes you feel any better, you just ate ~42,000 Joules worth of energy in calories, enough to kill the average man 4 times over!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+	"hidden": true
+  },
+  "parent": "morefoods:root",
+  "criteria": {
+    "ate_sniffer_egg": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 125
+          }
+        }
+      }
+    }
+  }
+}

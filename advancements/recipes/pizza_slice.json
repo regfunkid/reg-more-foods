@@ -1,0 +1,82 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "morefoods:pizza_slice"
+      }
+    },
+	"has_soup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:beetroot_soup" 
+		  }
+        ]
+      }
+    },
+	"has_wheat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wheat" 
+		  }
+        ]
+      }
+    },
+	"has_cheese": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tropical_fish",
+            "components": {
+              "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 3.6
+              }
+            }
+          }
+        ]
+      }
+	},
+	"has_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:egg" 
+		  }
+        ]
+      }
+    },
+	"has_cooked_meat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#morefoods:cooked_meats" 
+		  }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+	  "has_cheese",
+	  "has_cooked_meat",
+	  "has_egg",
+	  "has_soup",
+	  "has_wheat"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "morefoods:pizza_slice"
+    ]
+  }
+}

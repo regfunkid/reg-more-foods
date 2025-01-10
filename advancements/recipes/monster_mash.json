@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "morefoods:monster_mash"
+      }
+    },
+	"has_flesh": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rotten_flesh" 
+		  }
+        ]
+      }
+    },
+	"has_bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone" 
+		  }
+        ]
+      }
+    },
+	"has_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fermented_spider_eye" 
+		  }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+	  "has_flesh",
+	  "has_eye",
+	  "has_bone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "morefoods:monster_mash"
+    ]
+  }
+}

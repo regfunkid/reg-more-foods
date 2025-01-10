@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "bottle",
+  "pattern": [
+    "ABA",
+    "CDC",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "B": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "item": "minecraft:glass_bottle"
+    },
+    "D": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "id": "minecraft:honey_bottle",
+    "count": 3,
+    "components": {
+      "minecraft:custom_model_data": 99,
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 10.8,
+        "can_always_eat": true,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:fire_resistance",
+              "duration": 6000
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:resistance",
+              "duration": 6000
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:speed",
+              "amplifier": 1,
+              "duration": 1200
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:regeneration",
+              "amplifier": 1,
+              "duration": 400
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:absorption",
+              "amplifier": 4,
+              "duration": 2400
+            }
+          }
+        ]
+      },
+      "minecraft:item_name": "{\"text\":\"Enchanted Golden Apple Juice\"}",
+	  "minecraft:lore": [
+	  "{\"text\":\"You have to admit this is a bit overkill.\",\"color\":\"white\"}"
+	  ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:rarity": "epic"
+    }
+  }
+}

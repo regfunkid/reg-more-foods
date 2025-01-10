@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+	"has_flesh": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rotten_flesh" 
+		  }
+        ]
+      }
+	}
+  },
+  "requirements": [
+    [
+	  "has_flesh"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "morefoods:campfire/leather",
+	  "morefoods:smelting/zombie_jerky",
+	  "morefoods:smoking/zombie_jerky"
+    ]
+  }
+}

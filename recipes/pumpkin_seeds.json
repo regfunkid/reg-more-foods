@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:pumpkin"
+    }
+  ],
+  "result": {
+    "id": "minecraft:pumpkin_seeds",
+    "count": 4,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 1.2
+      },
+      "minecraft:custom_model_data": 100,
+      "minecraft:custom_name": "{\"text\":\"Pumpkin Slice\",\"italic\":false}"
+    }
+  }
+}

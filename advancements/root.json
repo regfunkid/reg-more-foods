@@ -1,0 +1,394 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:custom_model_data": 108
+      }
+    },
+    "title": "Extra Dietary Options",
+    "description": "Craft any food from the More Foods Datapack",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "apple juice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:apple_juice"
+      }
+    },
+    "burrito": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:burrito"
+      }
+    },
+    "apple pie slice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:apple_pie_slice"
+      }
+    },
+    "chocolate ice cream": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:chocolate_ice_cream"
+      }
+    },
+    "emerald apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:emerald_apple"
+      }
+    },
+    "apple pie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:apple_pie"
+      }
+    },
+    "diamond apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:diamond_apple"
+      }
+    },
+    "fish and chips": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:fish_and_chips"
+      }
+    },
+    "berry cookie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:berry_cookie"
+      }
+    },
+    "filled donut": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:filled_donut"
+      }
+    },
+    "cereal": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:cereal"
+      }
+    },
+    "enchanted emerald apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:enchanted_emerald_apple"
+      }
+    },
+    "frosted pumpkin pie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:frosted_pumpkin_pie"
+      }
+    },
+    "cocoa cookie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:cocoa_cookie"
+      }
+    },
+    "cheesecake": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:cheesecake"
+      }
+    },
+    "enchanted diamond apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:enchanted_diamond_apple"
+      }
+    },
+    "fish roll": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:fish_roll"
+      }
+    },
+    "golden apple juice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:golden_apple_juice"
+      }
+    },
+    "glow berry cookie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:glow_berry_cookie"
+      }
+    },
+    "fruit punch": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:fruit_punch"
+      }
+    },
+    "honey apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:honey_apple"
+      }
+    },
+    "glow filled donut": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:glow_filled_donut"
+      }
+    },
+    "honey ball": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:honey_ball"
+      }
+    },
+    "honey cookie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:honey_cookie"
+      }
+    },
+    "hot cocoa": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:hot_cocoa"
+      }
+    },
+    "enchanted golden apple juice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:enchanted_golden_apple_juice"
+      }
+    },
+    "ice cream": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:ice_cream"
+      }
+    },
+    "pizza slice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:pizza_slice"
+      }
+    },
+    "kabob": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:kabob"
+      }
+    },
+    "rabbit stew": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:rabbit_stew"
+      }
+    },
+    "pretzel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:pretzel"
+      }
+    },
+    "salad": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:salad"
+      }
+    },
+    "veg taco": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:veg_taco"
+      }
+    },
+    "glazed donut": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:glazed_donut"
+      }
+    },
+    "taco": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:taco"
+      }
+    },
+    "sandwich": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:sandwich"
+      }
+    },
+    "yogurt": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:yogurt"
+      }
+    },
+    "monster mash": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:monster_mash"
+      }
+    },
+    "veg burrito": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:veg_burrito"
+      }
+    },
+    "plain donut": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:plain_donut"
+      }
+    },
+    "tofu": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:tofu"
+      }
+    },
+    "fried dragon egg": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:blasting/fried_dragon_egg"
+      }
+    },
+    "fried sniffer egg": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:blasting/sniffer_fried_egg"
+      }
+    },
+    "fried egg campfire": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:campfire/fried_egg"
+      }
+    },
+    "fried egg furnace": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:smelting/fried_egg"
+      }
+    },
+    "zombie jerky furnace": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:smelting/zombie_jerky"
+      }
+    },
+    "fried egg smoker": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:smoking/fried_egg"
+      }
+    },
+    "zombie jerky smoker": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:smoking/zombie_jerky"
+      }
+    },
+    "cake slice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:stonecutting/cake_slice"
+      }
+    },
+    "cheese from end stone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:stonecutting/cheese_from_end_stone"
+      }
+    },
+    "cheese from sponge": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:stonecutting/cheese_from_sponge"
+      }
+    },
+    "cut potatoes": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:stonecutting/cut_potatoes"
+      }
+    },
+    "pumpkin pie slice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "morefoods:stonecutting/pumpkin_pie_slice"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "apple juice",
+      "burrito",
+      "apple pie slice",
+      "chocolate ice cream",
+      "emerald apple",
+      "apple pie",
+      "diamond apple",
+      "fish and chips",
+      "berry cookie",
+      "filled donut",
+      "cereal",
+      "enchanted emerald apple",
+      "frosted pumpkin pie",
+      "cocoa cookie",
+      "cheesecake",
+      "enchanted diamond apple",
+      "fish roll",
+      "golden apple juice",
+      "glow berry cookie",
+      "fruit punch",
+      "honey apple",
+      "glow filled donut",
+      "honey ball",
+      "honey cookie",
+      "hot cocoa",
+      "enchanted golden apple juice",
+      "ice cream",
+      "pizza slice",
+      "kabob",
+      "rabbit stew",
+      "pretzel",
+      "salad",
+      "salad",
+      "veg taco",
+      "glazed donut",
+      "taco",
+      "sandwich",
+      "yogurt",
+      "monster mash",
+      "veg burrito",
+      "plain donut",
+      "tofu",
+      "fried dragon egg",
+      "fried sniffer egg",
+      "fried egg campfire",
+      "fried egg furnace",
+      "zombie jerky furnace",
+      "fried egg smoker",
+      "zombie jerky smoker",
+      "cake slice",
+      "cheese from end stone",
+      "cheese from sponge",
+      "cut potatoes",
+      "pumpkin pie slice"
+    ]
+  ]
+}

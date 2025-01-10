@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "cookie",
+  "pattern": [
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "X": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "id": "minecraft:cookie",
+    "count": 8,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 0.4,
+        "can_always_eat": true,
+        "eat_seconds": 1
+      }
+    }
+  }
+}

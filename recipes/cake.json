@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:milk_bucket"
+    },
+    "B": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "item": "minecraft:wheat"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "id": "minecraft:cake",
+    "count": 1,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 14,
+        "saturation": 2.8,
+        "eat_seconds": 5,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:nausea",
+              "duration": 200
+            }
+          }
+        ]
+      }
+    }
+  }
+}
