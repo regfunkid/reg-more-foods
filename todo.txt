@@ -18,3 +18,5 @@ things to do
 - rework the mortar & pestle, shaker cup, and marshmallow on a stick
   - planned features:
     * make them function by holding "use" on them, and instead of detecting the held item when crouching, they will instead detect the item in the offhand if they are being "used" and run their functions off of that
+- add breadsticks
+- rework gourmand's digest (more info needed)
