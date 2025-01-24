@@ -1,0 +1,56 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:marshmallow_stick\"}"
+            }
+          }
+		},
+		"flags": {
+          "is_sneaking": true
+        }
+	  }
+	},
+	{
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:roasted_marshmallow_stick\"}"
+            }
+          }
+		},
+		"flags": {
+          "is_sneaking": true
+        }
+	  }
+	},
+	{
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "items": "minecraft:charcoal",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:burned_marshmallow_stick\"}"
+            }
+          }
+		},
+		"flags": {
+          "is_sneaking": true
+        }
+	  }
+	}
+  ]
+}

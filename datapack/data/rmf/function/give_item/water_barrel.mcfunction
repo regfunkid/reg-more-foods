@@ -1,0 +1,1 @@
+$give $(player) minecraft:flower_banner_pattern[custom_data={item_id:"rmf:water_barrel"},lore=['{text:"Reg\'s More Foods",color:blue}'],max_stack_size=64] $(count)
