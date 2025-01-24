@@ -1,0 +1,4 @@
+$scoreboard players set rmf.config rmf.grindingMaxCooldown $(speed)
+$execute if score rmf.config rmf.grindingMaxCooldown matches 5..40 run tellraw @s ["\n\n\n\n\n\n\n\n\n\n",{"text":"[RMF Config]","color":"yellow"}," ",{"translate":"rmfcommands.setGrindingSpeed.success"},{"text":" $(speed)"}]
+execute if score rmf.config rmf.grindingMaxCooldown matches ..4 run tellraw @s ["\n\n\n\n\n\n\n\n\n\n",{"text":"[RMF Config]","color":"yellow"}," ",{"translate":"rmfcommands.setGrindingSpeed.too_low","color":"red"}]
+execute if score rmf.config rmf.grindingMaxCooldown matches 41.. run tellraw @s ["\n\n\n\n\n\n\n\n\n\n",{"text":"[RMF Config]","color":"yellow"}," ",{"translate":"rmfcommands.setGrindingSpeed.too_high","color":"red"}]

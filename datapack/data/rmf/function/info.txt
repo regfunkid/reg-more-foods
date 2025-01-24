@@ -1,0 +1,3 @@
+This is where all of the functions are kept.
+
+Most function files have their own comment lines that explain how they work, so instead of creating new info files for each folder, go look through the functions! See if you can intuit how they... function. :3

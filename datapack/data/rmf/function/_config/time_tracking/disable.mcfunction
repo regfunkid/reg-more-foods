@@ -1,0 +1,2 @@
+execute if score rmf.config rmf.enableTimeTracking matches 0 run tellraw @s ["\n\n\n\n\n\n\n\n\n\n",{"text":"[RMF Config]","color":"yellow"}," ",{"translate":"rmfcommands.doTimeTracking.already_disabled","color":"red"}]
+execute if score rmf.config rmf.enableTimeTracking matches 1 run function rmf:bg/daydisable
