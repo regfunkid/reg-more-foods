@@ -1,0 +1,5 @@
+This is where all of the tags are.
+
+Tags allow data packs to group things together to recall them later. For example, there is an item tag called "herbs" that contains a collection of specific flowers. Multiple recipes can recall this "herbs" item tag once or twice instead of needing to specify the exact flowers every single time.
+
+There are multiple types of "tags", like a tag list for Blocks, but Reg's More Foods only uses item and mob effect tag lists.

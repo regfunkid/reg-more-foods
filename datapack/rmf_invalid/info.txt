@@ -1,0 +1,7 @@
+This folder only activates if the data pack is loaded in the wrong version of Minecraft.
+It does this though checking the pack_format number of the data pack, which Minecraft uses to tell what version of the game that data pack is for.
+For example, the version of the game this system was introduced in for this data pack (v1.?) had a pack_format of ??. Thus, this data pack had the same pack_format. That means that loading this specific data pack version in a different version of Minecraft will show an error.
+
+What happens from there, I don't know. Some versions of Reg's More Foods might be slightly functional in unintended versions. But there's no promises.
+
+Here be dragons!
