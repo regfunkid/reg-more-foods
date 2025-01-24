@@ -1,5 +1,20 @@
 things to do
 
+(general)
 - add tomatoes to give_item functions
 - update info.txt for rmf_invalid
 - create rmf:_config/setup file to run when a world is loaded, to hopefully fix issues with mortar & pestle/shaker cup/marshmallow cooking not working when datapack is installed
+
+(items)
+- add frying pan and give it functionality
+  - planned features:
+     * "using" it while crouching if a valid ingredient is in the offhand will add the ingredient to the pan
+    * standing over a valid heat source (campfires, furnaces, blocks that are hot enough to cook on?) while holding "use" on the frying pan with a valid ingredient inside will begin cooking the item inside
+    * the cooked item will be added directly to the player's inventory and removed from the pan
+      * this is done by turning the item into an "id" for the pan to store, and tracking that "id" to see what the player should recieve when it is done cooking. the cooking time and resulting item will be handled via functions, as per usual (making them easy to edit and create addons for)
+    * the frying pan will be a weapon, and come with a *NOT OBNOXIOUS SOUNDING* frying pan "hit" noise when used to attack an entity
+    * frying an item will not use up durablity, but the frying pan will likely have a durablity matching iron tools as it will be made of iron
+    * a secret recipe for a "gold" frying pan will exist, but not be shown to the player unless they guess the recipe. the gold frying pan will have no extra features besides just being gold :>
+- rework the mortar & pestle, shaker cup, and marshmallow on a stick
+  - planned features:
+    * make them function by holding "use" on them, and instead of detecting the held item when crouching, they will instead detect the item in the offhand if they are being "used" and run their functions off of that
