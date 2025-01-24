@@ -1,0 +1,2 @@
+Just a heads up: the entries in these files are in alphabetical order, but somewhere along the way they suddenly stop being in order. At the end of the file, they completely lose their order.
+This is due to the way I wrote the files. It's too much of a hassle to fix them, and you can still find specific items by using Ctrl+F, so I don't really care.

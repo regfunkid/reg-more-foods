@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench, created by regfunkid :3",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "rmf:item/coffee_beans"
+	},
+	"overrides": [
+		{"model": "rmf:item/phantom_membrane", "predicate": {"custom_model_data": 2500152}}
+	]
+}

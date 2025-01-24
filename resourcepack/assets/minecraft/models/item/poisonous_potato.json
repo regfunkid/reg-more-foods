@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench, created by regfunkid :3",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "rmf:item/tofu"
+	},
+	"overrides": [
+		{"model": "rmf:item/poisonous_potato", "predicate": {"custom_model_data": 2500110}}
+	]
+}
