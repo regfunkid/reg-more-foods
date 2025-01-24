@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "rmf:smoothie_melon"
+      }
+    },
+    "title": {
+      "translate": "advancement.rmf.shaken_not_stirred.title"
+    },
+    "description": {
+      "translate": "advancement.rmf.shaken_not_stirred.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:barista_training",
+  "criteria": {
+    "crafted smoothie": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

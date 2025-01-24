@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "rmf:strawberry"
+      }
+    },
+    "title": {
+      "translate": "advancement.rmf.obtain_berries.title"
+    },
+    "description": {
+      "translate": "advancement.rmf.obtain_berries.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:the_forager",
+  "criteria": {
+    "has_strawberry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:strawberry\"}"
+            }
+          }
+        ]
+      }
+    },
+    "has_raspberry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:raspberry\"}"
+            }
+          }
+        ]
+      }
+    },
+    "has_blackberry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:blackberry\"}"
+            }
+          }
+        ]
+      }
+    },
+    "has_blueberry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:blueberry\"}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_strawberry",
+      "has_blueberry",
+      "has_blackberry",
+      "has_raspberry"
+    ]
+  ]
+}

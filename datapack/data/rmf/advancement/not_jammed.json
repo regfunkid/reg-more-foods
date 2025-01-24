@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "rmf:sweet_berry_jam"
+      }
+    },
+    "title": {
+      "translate": "advancement.rmf.not_jammed.title"
+    },
+    "description": {
+      "translate": "advancement.rmf.not_jammed.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:barista_training",
+  "criteria": {
+    "crafted jam": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

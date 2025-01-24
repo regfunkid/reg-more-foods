@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "rmf:mango"
+      }
+    },
+	"title": {
+	  "translate": "advancement.rmf.juicy_fruit.title"
+	},
+    "description": {
+	  "translate": "advancement.rmf.juicy_fruit.description"
+	},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:the_forager",
+  "criteria": {
+    "has_mango": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:mango\"}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_ball",
+      "components": {
+        "minecraft:item_model": "rmf:honey_ball"
+      }
+    },
+	"title": {
+	  "translate": "advancement.rmf.multipurpose_snack.title"
+	},
+    "description": {
+	  "translate": "advancement.rmf.multipurpose_snack.description"
+	},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:bee_syrup",
+  "criteria": {
+    "crafted honeyball": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:honey_ball"
+      }
+    }
+  }
+}

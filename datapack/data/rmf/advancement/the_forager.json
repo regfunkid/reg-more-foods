@@ -1,0 +1,135 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:short_grass"
+    },
+    "title": {
+      "translate": "advancement.rmf.the_forager.title"
+    },
+    "description": {
+      "translate": "advancement.rmf.the_forager.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "rmf:crafted_food",
+  "criteria": {
+    "found bananas": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:banana\"}"
+            }
+          }
+        ]
+      }
+    },
+    "found coconuts": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:coconut\"}"
+            }
+          }
+        ]
+      }
+    },
+    "found mangos": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:mango\"}"
+            }
+          }
+        ]
+      }
+    },
+    "found coffee beans": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:coffee_beans\"}"
+            }
+          }
+        ]
+      }
+    },
+    "found strawberries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:strawberry\"}"
+            }
+          }
+        ]
+      }
+    },
+	"found blueberries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:blueberry\"}"
+            }
+          }
+        ]
+      }
+    },
+	"found blackberries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:blackberry\"}"
+            }
+          }
+        ]
+      }
+    },
+	"found raspberries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:raspberry\"}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "found bananas",
+      "found coconuts",
+      "found mangos",
+      "found coffee beans",
+      "found strawberries",
+	  "found blueberries",
+	  "found blackberries",
+	  "found raspberries"
+    ]
+  ]
+}
