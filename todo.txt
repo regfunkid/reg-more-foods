@@ -1,3 +1,5 @@
 things to do
 
-- add tomatoes to `give_item`
+- add tomatoes to give_item functions
+- update info.txt for rmf_invalid
+- create rmf:_config/setup file to run when a world is loaded, to hopefully fix issues with mortar & pestle/shaker cup/marshmallow cooking not working when datapack is installed
