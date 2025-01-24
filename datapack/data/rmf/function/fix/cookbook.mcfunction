@@ -1,0 +1,4 @@
+# This specific "fix item" command is annoying, as the cookbook has a LOT of data. Instead, we're just gonna run the function that summons the book to the player's position and call it a day
+clear @s minecraft:written_book[minecraft:custom_data={item_id:fraudbook}] 1
+give @p minecraft:writable_book[minecraft:writable_book_content={pages:[{raw:"Sorry! The actual Gourmand's Digest has too much data to give in a command... please accept this IOU book and put it in a Furnace to accept your FREE copy of the Gourmand's Digest!"}]},minecraft:custom_name='{"text":"IOU: 1x Gourmand\'s Digest"}']
+title @s actionbar [{"text":"[RMF Config] ","color":"yellow"},{"text":"Replaced Item \"rmf:cookbook\"","color":"white"}]

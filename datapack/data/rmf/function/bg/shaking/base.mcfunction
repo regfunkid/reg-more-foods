@@ -1,0 +1,6 @@
+# This function is the first step of all "shaking" recipes.
+# Basically, it just removes the water in the bottle of the player's mainhand and replaces it with a glass bottle. It then updates the shaker cup's damage value to show progress being made towards a drink.
+execute if items entity @s weapon.mainhand potion[minecraft:potion_contents=water] run item replace entity @s[gamemode=!creative] weapon.mainhand with minecraft:glass_bottle
+execute if items entity @s weapon.mainhand minecraft:flower_banner_pattern[custom_data={item_id:"rmf:water_barrel"}] run clear @s[gamemode=!creative] flower_banner_pattern[custom_data={item_id:"rmf:water_barrel"}] 1
+execute at @s run playsound minecraft:item.bottle.empty
+item replace entity @s weapon.offhand with minecraft:firework_star[item_model="rmf:shaker_cup",minecraft:damage=3,minecraft:max_damage=4,minecraft:max_stack_size=1,minecraft:item_name='{translate:"item.rmf.shaker_cup"}',custom_data={item_id:"rmf:shaker_cup"},lore=['{text:"Reg\'s More Foods",color:blue}']]

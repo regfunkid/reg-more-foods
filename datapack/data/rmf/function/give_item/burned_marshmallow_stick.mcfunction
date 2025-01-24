@@ -1,0 +1,1 @@
+$give $(player) minecraft:charcoal[item_model="rmf:burned_marshmallow_stick",food={nutrition:1,saturation:0.5},consumable={},use_remainder={id:stick},minecraft:item_name='{translate:"item.rmf.burned_marshmallow_stick"}',custom_data={item_id:"rmf:burned_marshmallow_stick"},lore=['{"text":"Reg\'s More Foods",color:blue}']] $(count)

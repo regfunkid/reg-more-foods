@@ -1,0 +1,5 @@
+This file will explain what changed in this "fix" folder.
+
+What needed to get fixed in v1.2.1:
+
+- The cookbook has finally been added to the datapack, meaning the "fraudbook" needs to be replaced with the real thing.

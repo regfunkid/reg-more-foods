@@ -1,0 +1,1 @@
+$give $(player) firework_star[item_model="rmf:brownie",food={nutrition:2,saturation:2,can_always_eat:true},consumable={consume_seconds:0.8,on_consume_effects:[{type:apply_effects,effects:[{id:speed,duration:100}],probability:0.6}]},item_name='{translate:"item.rmf.brownie"}',custom_data={item_id:"rmf:brownie"},lore=['{text:"Reg\'s More Foods",color:blue}']] $(count)

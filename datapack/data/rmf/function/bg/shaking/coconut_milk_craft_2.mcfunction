@@ -1,0 +1,5 @@
+# This function is for crafting Coconut Milk.
+# If all previous steps have been completed, the player just has to repeat the process but with Coconut Mash in their mainhand.
+clear @s[gamemode=!creative] firework_star[custom_data~{item_id:"rmf:coconut_mash"}] 1
+execute at @s run playsound minecraft:item.bundle.insert
+item replace entity @s weapon.offhand with minecraft:firework_star[item_model="rmf:shaker_cup",minecraft:damage=0,minecraft:max_damage=4,minecraft:max_stack_size=1,minecraft:item_name='{translate:"item.rmf.shaker_cup"}',minecraft:enchantment_glint_override=true,lore=['{translate:"item.rmf.shaker_cup.contents","color":"white","italic":false}','{translate:"item.rmf.shaker_cup.contents_coconut_milk","color":"aqua","italic":false}','{text:"Reg\'s More Foods", color:blue}'],minecraft:custom_data={contents:coconut_milk,item_id:"rmf:shaker_cup"}]
