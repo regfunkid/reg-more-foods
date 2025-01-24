@@ -1,0 +1,25 @@
+{
+  "parent": "rmf:recipes/root",
+  "criteria": {
+	"has_water": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:water_bucket"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_water"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rmf:water_barrel"
+    ]
+  }
+}

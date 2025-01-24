@@ -1,0 +1,36 @@
+{
+  "parent": "rmf:recipes/root",
+  "criteria": {
+    "has bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone"
+          }
+        ]
+      }
+    },
+    "has bowl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bowl"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has bone",
+      "has bowl"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rmf:stock"
+    ]
+  }
+}

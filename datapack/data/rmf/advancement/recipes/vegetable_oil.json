@@ -1,0 +1,28 @@
+{
+  "parent": "rmf:recipes/root",
+  "criteria": {
+	"has_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#rmf:vegetable_oil_ingredients",
+			"count": {
+			  "min": 4
+			}
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingredients"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rmf:vegetable_oil"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "rmf:recipes/root",
+  "criteria": {
+    "has_cheese": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tropical_fish"
+          }
+        ]
+      }
+    },
+	"has_sponge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sponge"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cheese",
+	  "has_sponge"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rmf:sponge"
+    ]
+  }
+}

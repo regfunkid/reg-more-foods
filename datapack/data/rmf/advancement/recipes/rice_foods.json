@@ -1,0 +1,37 @@
+{
+  "parent": "rmf:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rmf:rice_bowl"
+      }
+    },
+    "has_rice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:field_masoned_banner_pattern",
+			"components": {
+			  "minecraft:custom_data": "{item_id:\"rmf:rice\"}"
+			}
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rice"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rmf:rice_bowl",
+	  "rmf:fried_rice",
+	  "rmf:rice"
+    ]
+  }
+}
