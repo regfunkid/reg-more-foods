@@ -1,0 +1,236 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:water"
+        }
+      }
+    },
+    "title": {
+	  "translate": "advancement.rmf.drinkoholic.title"
+	},
+    "description": {
+	  "translate": "advancement.rmf.drinkoholic.description", "color": "gold"
+	},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:crafted_food",
+  "criteria": {
+    "apple juice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:apple_juice\"}"
+          }
+        }
+      }
+    },
+    "hot cocoa": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:hot_cocoa\"}"
+          }
+        }
+      }
+    },
+	"golden apple juice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:golden_apple_juice\"}"
+          }
+        }
+      }
+    },
+	"fruit punch": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:fruit_punch\"}"
+          }
+        }
+      }
+    },
+	"tea": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:tea\"}"
+          }
+        }
+      }
+    },
+	"coffee": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:coffee\"}"
+          }
+        }
+      }
+    },
+	"melon smoothie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:melon_smoothie\"}"
+          }
+        }
+      }
+    },
+	"banana smoothie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:banana_smoothie\"}"
+          }
+        }
+      }
+    },
+	"strawberry smoothie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:strawberry_smoothie\"}"
+          }
+        }
+      }
+    },
+	"blueberry smoothie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:blueberry_smoothie\"}"
+          }
+        }
+      }
+    },
+	"raspberry smoothie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:raspberry_smoothie\"}"
+          }
+        }
+      }
+    },
+	"blackberry smoothie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:blackberry_smoothie\"}"
+          }
+        }
+      }
+    },
+	"peach smoothie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:peach_smoothie\"}"
+          }
+        }
+      }
+    },
+	"mango smoothie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:mango_smoothie\"}"
+          }
+        }
+      }
+    },
+	"chocolate milk": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:chocolate_milk\"}"
+          }
+        }
+      }
+    },
+	"milk barrel": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:rabbit_foot",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:milk_barrel\"}"
+          }
+        }
+      }
+    },
+	"vegetable oil": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:guster_banner_pattern",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:vegetable_oil\"}"
+          }
+        }
+      }
+    },
+	"soy milk": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:milk_bucket",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:soy_milk\"}"
+          }
+        }
+      }
+    },
+	"coconut milk": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:milk_bucket",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:coconut_milk\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+	"function": "rmf:bg/goal_reward"
+  }
+}

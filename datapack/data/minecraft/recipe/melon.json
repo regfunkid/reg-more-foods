@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "##",
+	"##"
+  ],
+  "key": {
+    "#": "minecraft:melon_slice"
+  },
+  "result": {
+    "id": "minecraft:melon",
+    "count": 1
+  }
+}

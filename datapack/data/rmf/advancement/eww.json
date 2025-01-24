@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "rmf:poisonous_potato"
+      }
+    },
+    "title": {
+      "translate": "advancement.rmf.eww.title"
+    },
+    "description": {
+      "translate": "advancement.rmf.eww.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:crafted_food",
+  "criteria": {
+    "found bad potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:item_model": "rmf:poisonous_potato"
+            }
+          }
+        ]
+      }
+    },
+	"found bad tomato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:snowball",
+            "components": {
+              "minecraft:item_model": "rmf:rotten_tomato"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+	  "found bad potato",
+	  "found bad tomato"
+	]
+  ]
+}

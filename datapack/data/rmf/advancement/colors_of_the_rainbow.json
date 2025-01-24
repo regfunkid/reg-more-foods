@@ -1,0 +1,146 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "rmf:snow_cone_red"
+      }
+    },
+    "title": {
+	  "translate": "advancement.rmf.colors_of_the_rainbow.title"
+	},
+    "description": {
+	  "translate": "advancement.rmf.colors_of_the_rainbow.description", "color": "gold"
+	},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:crafted_food",
+  "criteria": {
+    "red snow cone": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:red_snow_cone\"}"
+          }
+        }
+	  }
+	},
+	"black snow cone": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:black_snow_cone\"}"
+          }
+        }
+      }
+    },
+	"blue snow cone": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:blue_snow_cone\"}"
+          }
+        }
+      }
+    },
+	"green snow cone": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:green_snow_cone\"}"
+          }
+        }
+      }
+    },
+	"light blue snow cone": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:light_blue_snow_cone\"}"
+          }
+        }
+      }
+    },
+	"lime snow cone": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:lime_snow_cone\"}"
+          }
+        }
+      }
+    },
+	"orange snow cone": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:orange_snow_cone\"}"
+          }
+        }
+      }
+    },
+	"pink snow cone": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:pink_snow_cone\"}"
+          }
+        }
+      }
+    },
+	"purple snow cone": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:purple_snow_cone\"}"
+          }
+        }
+      }
+    },
+	"white snow cone": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:white_snow_cone\"}"
+          }
+        }
+      }
+    },
+	"yellow snow cone": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:yellow_snow_cone\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+	"function": "rmf:bg/goal_reward"
+  }
+}

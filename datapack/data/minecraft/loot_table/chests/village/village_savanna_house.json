@@ -1,0 +1,187 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 8
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:short_grass",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tall_grass",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_sapling",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bucket"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "rmf:banana",
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 2.4,
+				  "can_always_eat": true
+                },
+				"minecraft:consumable": {},
+				"minecraft:custom_data": "{item_id:\"rmf:banana\"}",
+                "minecraft:lore": [
+                  "{\"text\":\"Reg's More Foods\",color:blue}"
+                ],
+                "minecraft:item_name": "{\"translate\":\"item.rmf.banana\"}"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+		{
+		  "type": "minecraft:item",
+		  "name": "minecraft:firework_star",
+		  "functions": [
+			{
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:item_name": "{translate:\"item.rmf.raspberry\"}",
+				"minecraft:item_model": "rmf:raspberry",
+				"minecraft:custom_data": "{item_id:\"rmf:raspberry\"}",
+				"minecraft:lore": [
+				  "{\"text\":\"Reg's More Foods\",color:blue}"
+				],
+				"minecraft:food": {
+				  "nutrition": 3,
+				  "saturation": 1,
+				  "can_always_eat": true
+				},
+				"minecraft:consumable": {
+				  "consume_seconds": 1.2
+				}
+			  }
+			}
+		  ]
+		}
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:chests/village/village_savanna_house"
+}

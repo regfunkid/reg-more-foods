@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+	  "components": {
+		"minecraft:item_model": "rmf:burned_marshmallow_stick"
+	  }
+    },
+    "title": {
+      "translate": "advancement.rmf.charred_to_perfection.title"
+    },
+    "description": {
+      "translate": "advancement.rmf.charred_to_perfection.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:roasted_to_perfection",
+  "criteria": {
+    "consumed burned marshmallow": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:charcoal",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:burned_marshmallow_stick\"}"
+          }
+        }
+      }
+    }
+  }
+}

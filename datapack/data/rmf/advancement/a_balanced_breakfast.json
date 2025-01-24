@@ -1,0 +1,573 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "rmf:cereal"
+      }
+    },
+    "title": {
+	  "translate": "advancement.rmf.a_balanced_breakfast.title"
+	},
+    "description": {
+	  "translate":  "advancement.rmf.a_balanced_breakfast.description", "color": "gold"
+	},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:lil_sundial",
+  "criteria": {
+    "ate cereal during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:cereal\"}"
+          }
+        }
+      }
+    },
+    "drank apple juice during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:apple_juice\"}"
+          }
+        }
+      }
+    },
+    "drank golden apple juice during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:golden_apple_juice\"}"
+          }
+        }
+      }
+    },
+	"drank enchanted golden apple juice during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:enchanted_golden_apple_juice\"}"
+          }
+        }
+      }
+    },
+    "drank hot cocoa during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:hot_cocoa\"}"
+          }
+        }
+      }
+    },
+    "drank yogurt during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:yogurt\"}"
+          }
+        }
+      }
+    },
+    "drank fruit punch during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:fruit_punch\"}"
+          }
+        }
+      }
+    },
+    "drank tea during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:tea\"}"
+          }
+        }
+      }
+    },
+    "drank coffee during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:coffee\"}"
+          }
+        }
+      }
+    },
+	"drank melon smoothie during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:melon_smoothie\"}"
+          }
+        }
+      }
+    },
+	"drank banana smoothie during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:banana_smoothie\"}"
+          }
+        }
+      }
+    },
+	"drank strawberry smoothie during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:strawberry_smoothie\"}"
+          }
+        }
+      }
+    },
+	"drank blueberry smoothie during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:blueberry_smoothie\"}"
+          }
+        }
+      }
+    },
+	"drank raspberry smoothie during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:raspberry_smoothie\"}"
+          }
+        }
+      }
+    },
+	"drank blackberry smoothie during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:blackberry_smoothie\"}"
+          }
+        }
+      }
+    },
+	"drank peach smoothie during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:peach_smoothie\"}"
+          }
+        }
+      }
+    },
+	"drank mango smoothie during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:mango_smoothie\"}"
+          }
+        }
+      }
+    },
+	"drank milk bucket during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:milk_bucket"
+        }
+      }
+    },
+	"drank milk barrel during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:milk_barrel\"}"
+          }
+        }
+      }
+    },
+	"drank chocolate milk during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:milk_chocolate\"}"
+          }
+        }
+      }
+    },
+    "ate croissant during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:croissant\"}"
+          }
+        }
+      }
+    },
+    "ate fried egg during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:fried_egg\"}"
+          }
+        }
+      }
+    },
+	"ate sniffer fried egg during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:fried_sniffer_egg\"}"
+          }
+        }
+      }
+    },
+	"ate dragon fried egg during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:fried_dragon_egg\"}"
+          }
+        }
+      }
+    },
+    "ate banana during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:banana\"}"
+          }
+        }
+      }
+    },
+    "ate apple during breakfast": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:apple"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ate cereal during breakfast"
+    ],
+    [
+      "ate croissant during breakfast",
+      "ate fried egg during breakfast",
+	  "ate sniffer fried egg during breakfast",
+	  "ate dragon fried egg during breakfast",
+      "ate banana during breakfast",
+      "ate apple during breakfast"
+    ],
+    [
+      "drank apple juice during breakfast",
+      "drank golden apple juice during breakfast",
+	  "drank enchanted golden apple juice during breakfast",
+      "drank hot cocoa during breakfast",
+      "drank yogurt during breakfast",
+      "drank fruit punch during breakfast",
+      "drank tea during breakfast",
+      "drank coffee during breakfast",
+	  "drank melon smoothie during breakfast",
+	  "drank banana smoothie during breakfast",
+	  "drank strawberry smoothie during breakfast",
+	  "drank blueberry smoothie during breakfast",
+	  "drank raspberry smoothie during breakfast",
+	  "drank blackberry smoothie during breakfast",
+	  "drank peach smoothie during breakfast",
+	  "drank mango smoothie during breakfast",
+	  "drank milk bucket during breakfast",
+	  "drank milk barrel during breakfast",
+	  "drank chocolate milk during breakfast"
+    ]
+  ],
+  "rewards": {
+	"function": "rmf:bg/goal_reward"
+  }
+}
