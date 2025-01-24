@@ -1,0 +1,32 @@
+{
+  "parent": "rmf:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rmf:chicken_parmesan"
+      }
+    },
+	"has_cheese": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tropical_fish"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cheese"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rmf:chicken_parmesan"
+    ]
+  }
+}

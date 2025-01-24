@@ -1,0 +1,13 @@
+{
+  "parent": "rmf:recipes/root",
+  "criteria": {
+    "player exists for 1/20 of a second": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "rmf:smelting/cookbook"
+    ]
+  }
+}

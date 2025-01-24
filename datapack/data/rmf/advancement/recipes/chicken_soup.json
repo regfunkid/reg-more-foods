@@ -1,0 +1,90 @@
+{
+  "parent": "rmf:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rmf:chicken_soup"
+      }
+    },
+	"has_water_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:water_bucket"
+          }
+        ]
+      }
+    },
+	"has_water_barrel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:flower_banner_pattern",
+			"components": {
+			  "minecraft:custom_data": "{item_id:\"rmf:water_barrel\"}"
+			}
+          }
+        ]
+      }
+    },
+	"has_bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone"
+          }
+        ]
+      }
+    },
+	"has_chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chicken"
+          }
+        ]
+      }
+    },
+	"has_carrot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:carrot"
+          }
+        ]
+      }
+    },
+	"has_bowl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bowl"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_water_bucket",
+	  "has_water_barrel",
+	  "has_bone",
+	  "has_bowl",
+	  "has_carrot",
+	  "has_chicken"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rmf:chicken_soup"
+    ]
+  }
+}

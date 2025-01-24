@@ -1,0 +1,33 @@
+{
+  "parent": "rmf:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rmf:hot_dog"
+      }
+    },
+	"has_bread": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bread"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bread"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rmf:hot_dog",
+	  "rmf:veggie_dog"
+    ]
+  }
+}

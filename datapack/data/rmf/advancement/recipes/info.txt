@@ -1,0 +1,6 @@
+Where the recipe advancements are kept.
+
+Recipe advancements trigger when a player completes certain objectives--in the case of Reg's More Foods, they will trigger when a player picks up or has certain ingredients.
+For example, obtaining Cheese for the first time will activate several recipe advancements that are looking for Cheese, and thus give the player multiple recipes that require Cheese.
+
+Some recipe advancements can detect multiple items instead of just one. Thus, they will trigger if one of the ingredients in the list are found.
