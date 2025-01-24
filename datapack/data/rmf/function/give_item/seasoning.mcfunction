@@ -1,0 +1,1 @@
+$give $(player) minecraft:skull_banner_pattern[custom_data={item_id:"rmf:seasoning"},lore=['{text:"Reg\'s More Foods",color:blue}'],max_stack_size=64] $(count)

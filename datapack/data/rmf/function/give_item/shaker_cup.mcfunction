@@ -1,0 +1,1 @@
+$give $(player) minecraft:firework_star[item_model="rmf:shaker_cup",minecraft:item_name='{translate:"item.rmf.shaker_cup"}',custom_data={item_id:"rmf:shaker_cup"},lore=['{"text":"Reg\'s More Foods",color:blue}'],max_damage=4,damage=0,max_stack_size=1] $(count)
