@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench, created by regfunkid :3",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "rmf:item/sweet_berry_jam"
+	}
+}
