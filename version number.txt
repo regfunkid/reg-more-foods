@@ -1,0 +1,3 @@
+Release 1.2.1
+
+If you encounter any issues or bugs, please visit https://github.com/regfunkid/reg-more-foods/issues

@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cactus",
+              "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "components": {
+                        "minecraft:custom_data": "{item_id:\"rmf:cleaver\"}"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 3
+                },
+                "minecraft:consumable": {},
+				"minecraft:damage_resistant": {
+				  "types": "#rmf:ignores_cactus"
+				},
+                "minecraft:item_model": "rmf:prickly_pear",
+                "minecraft:custom_data": "{item_id:\"rmf:prickly_pear\"}",
+                "minecraft:lore": [
+                  "{\"text\":\"Reg's More Foods\",color:blue}"
+                ],
+                "minecraft:item_name": "{translate:\"item.rmf.cactus_fruit\"}"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "components": {
+                  "minecraft:custom_data": "{item_id:\"rmf:cleaver\"}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/cactus"
+}
