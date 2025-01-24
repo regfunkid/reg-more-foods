@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "cookie",
+  "pattern": [
+    "X#X"
+  ],
+  "key": {
+    "#": "minecraft:wheat",
+    "X": "minecraft:cocoa_beans"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 8,
+    "components": {
+      "minecraft:item_model": "rmf:cocoa_cookie",
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 0.4,
+        "can_always_eat": true
+      },
+	  "minecraft:consumable": {
+		"consume_seconds": 1
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.cocoa_cookie'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:cocoa_cookie\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

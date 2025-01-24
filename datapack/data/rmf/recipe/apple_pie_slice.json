@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "apple pie",
+  "ingredients": [
+    "minecraft:apple",
+    "minecraft:wheat",
+    "minecraft:sugar",
+	"minecraft:egg"
+  ],
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 2,
+    "components": {
+      "minecraft:item_model": "rmf:apple_pie_slice",
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 1.2,
+        "can_always_eat": true
+      },
+	  "minecraft:consumable": {
+		"consume_seconds": 1
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.apple_pie_slice'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:apple_pie_slice\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

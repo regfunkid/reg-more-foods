@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "marshmallow",
+  "ingredients": [
+    "minecraft:egg",
+	[
+	  "minecraft:flower_banner_pattern",
+	  "minecraft:water_bucket"
+	],
+	[
+	  "minecraft:sugar",
+	  "minecraft:honey_bottle"
+	],
+	"minecraft:stick"
+  ],
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "rmf:marshmallow_stick",
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 1,
+		"can_always_eat": true
+      },
+	  "minecraft:consumable": {
+		"has_consume_particles": false,
+		"sound": "block.honey_block.slide"
+	  },
+	  "minecraft:use_remainder": {
+		"id": "minecraft:stick" 
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.marshmallow_stick'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:marshmallow_stick\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

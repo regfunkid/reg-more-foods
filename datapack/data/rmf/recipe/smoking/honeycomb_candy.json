@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": "minecraft:honeycomb",
+  "result": {
+    "id": "minecraft:firework_star",
+    "components": {
+      "minecraft:item_model": "rmf:honeycomb_candy",
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation": 2
+      },
+	  "minecraft:consumable": {},
+      "minecraft:item_name": "{'translate':'item.rmf.cooked_honeycomb'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:honeycomb_candy\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "ingredients": [
+    "minecraft:grass_block",
+    "minecraft:brown_mushroom",
+	"minecraft:red_mushroom",
+	"minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "minecraft:mycelium",
+    "count": 1
+  }
+}

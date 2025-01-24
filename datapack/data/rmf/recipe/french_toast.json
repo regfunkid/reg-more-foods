@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "minecraft:bread",
+	"minecraft:egg",
+	[
+	  "minecraft:rabbit_foot",
+	  "minecraft:milk_bucket"
+	],
+	"minecraft:skull_banner_pattern"
+  ],
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 2,
+    "components": {
+      "minecraft:item_model": "rmf:french_toast",
+	  "minecraft:food": {
+		"nutrition": 7,
+		"saturation": 8
+	  },
+	  "minecraft:consumable": {},
+      "minecraft:item_name": "{'translate':'item.rmf.french_toast'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:french_toast\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "pizza",
+  "pattern": [
+    "ZBZ",
+    "TTT",
+    "YQY"
+  ],
+  "key": {
+    "T": "minecraft:beetroot_soup",
+    "Y": "minecraft:wheat",
+    "Z": "minecraft:tropical_fish",
+    "Q": "minecraft:egg",
+	"B": "#rmf:veg_burrito_ingredients"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "rmf:veg_pizza_slice",
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation": 11
+      },
+	  "minecraft:consumable": {
+		"consume_seconds": 2
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.veg_pizza_slice'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:veg_pizza_slice\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

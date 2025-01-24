@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    " WW",
+    "WWW",
+    "WW "
+  ],
+  "key": {
+    "W": "minecraft:wheat"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "rmf:baguette",
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation": 9
+      },
+	  "minecraft:consumable": {
+		"consume_seconds": 2.5
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.baguette'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:baguette\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

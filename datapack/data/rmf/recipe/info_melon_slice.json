@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "stonecutter",
+  "ingredients": [
+    "minecraft:melon",
+	"minecraft:knowledge_book"
+  ],
+  "result": {
+    "id": "minecraft:melon_slice",
+    "count": 4,
+    "components": {
+	  "minecraft:lore": [
+	  "{'translate':'item.rmf.stonecutter.desc',\"color\":\"aqua\"}"
+	  ]
+    }
+  }
+}

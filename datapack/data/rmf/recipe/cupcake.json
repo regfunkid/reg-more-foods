@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "cupcake",
+  "pattern": [
+    "SMS",
+    "WWW",
+    " W "
+  ],
+  "key": {
+    "W": "minecraft:wheat",
+    "M": [
+	  "minecraft:rabbit_foot",
+	  "minecraft:milk_bucket"
+	],
+    "S": "minecraft:sugar"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 3,
+    "components": {
+      "minecraft:item_model": "rmf:cupcake",
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 6,
+		"can_always_eat": true
+      },
+	  "minecraft:consumable": {
+		"on_consume_effects": [
+		  {
+			"type": "minecraft:apply_effects",
+			"effects": [
+			  {
+				"id": "minecraft:speed",
+				"duration": 200
+			  },
+			  {
+				"id": "minecraft:haste",
+				"duration": 100
+			  }
+			],
+			"probability": 0.6
+		  }
+		]
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.cupcake'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:cupcake\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

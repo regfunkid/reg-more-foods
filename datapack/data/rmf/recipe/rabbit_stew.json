@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "minecraft:baked_potato",
+    "#rmf:cooked_meats",
+    "minecraft:bowl",
+    "minecraft:carrot",
+    [
+      "minecraft:red_mushroom",
+      "minecraft:brown_mushroom"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:rabbit_stew",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{'translate':'item.rmf.rabbit_stew'}",
+	  "minecraft:food": {
+        "nutrition": 10,
+        "saturation": 7.2
+	  },
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

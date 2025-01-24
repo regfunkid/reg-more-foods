@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "taco",
+  "pattern": [
+    " C ",
+    "WMW",
+    " W "
+  ],
+  "key": {
+    "C": "minecraft:tropical_fish",
+    "W": "minecraft:wheat",
+    "M": "#rmf:cooked_meats"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 3,
+    "components": {
+      "minecraft:item_model": "rmf:taco",
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 6
+      },
+	  "minecraft:consumable": {},
+      "minecraft:item_name": "{'translate':'item.rmf.taco'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:taco\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

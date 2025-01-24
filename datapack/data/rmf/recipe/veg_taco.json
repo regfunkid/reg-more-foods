@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "taco",
+  "pattern": [
+    " C ",
+    "WTW",
+    " W "
+  ],
+  "key": {
+    "C": "minecraft:tropical_fish",
+    "W": "minecraft:wheat",
+    "T": "#rmf:veg_burrito_ingredients"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 3,
+    "components": {
+      "minecraft:item_model": "rmf:veg_taco",
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 4
+      },
+	  "minecraft:consumable": {},
+      "minecraft:item_name": "{'translate':'item.rmf.veg_taco'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:veg_taco\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": "minecraft:tropical_fish"
+  },
+  "result": {
+    "id": "minecraft:sponge",
+    "count": 1
+  }
+}

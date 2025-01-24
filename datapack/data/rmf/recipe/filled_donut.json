@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "donut",
+  "pattern": [
+    " W ",
+    "WBW",
+    " W "
+  ],
+  "key": {
+    "W": "minecraft:wheat",
+    "B": "minecraft:sweet_berries"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 2,
+    "components": {
+      "minecraft:item_model": "rmf:filled_donut",
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 9
+      },
+	  "minecraft:consumable": {},
+      "minecraft:item_name": "{'translate':'item.rmf.filled_donut'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:filled_donut\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

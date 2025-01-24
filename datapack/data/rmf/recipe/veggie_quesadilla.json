@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "quesadilla",
+  "pattern": [
+    "WWW",
+	"WCW",
+	"VVV"
+  ],
+  "key": {
+    "W": "minecraft:wheat",
+    "C": "minecraft:tropical_fish",
+	"V": "#rmf:veg_burrito_ingredients"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 3,
+    "components": {
+      "minecraft:item_model": "rmf:veg_quesadilla",
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 5
+      },
+	  "minecraft:consumable": {},
+      "minecraft:item_name": "{'translate':'item.rmf.veg_quesadilla'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:veg_quesadilla\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+	}
+  }
+}

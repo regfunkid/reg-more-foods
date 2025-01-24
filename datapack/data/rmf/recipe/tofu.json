@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    " S ",
+    "SBS",
+    " W "
+  ],
+  "key": {
+    "B": "#rmf:tofu_ingredients",
+    "W": [
+	  "minecraft:flower_banner_pattern",
+	  "minecraft:water_bucket"
+	],
+    "S": "minecraft:wheat_seeds"
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "count": 3,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 0.5,
+		"can_always_eat": true
+      },
+	  "minecraft:consumable": {},
+      "minecraft:item_name": "{'translate':'item.rmf.tofu'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:tofu\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

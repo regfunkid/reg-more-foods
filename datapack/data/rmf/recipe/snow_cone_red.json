@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "snow cone",
+  "pattern": [
+    "UDU",
+    "WSW",
+    " W "
+  ],
+  "key": {
+    "S": "minecraft:powder_snow_bucket",
+    "W": "minecraft:paper",
+    "U": "minecraft:sugar",
+    "D": "minecraft:red_dye"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 3,
+    "components": {
+      "minecraft:item_model": "rmf:snow_cone_red",
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 2,
+        "can_always_eat": true
+	  },
+	  "minecraft:consumable": {
+		"on_consume_effects": [
+		  {
+		    "type": "minecraft:apply_effects",
+		    "effects": [
+			  {
+			    "id": "minecraft:speed",
+				"duration": 1200
+			  }
+		    ]
+		  }
+		]
+	  },
+	  "minecraft:use_remainder": {
+		"id": "minecraft:paper"  
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.snow_cone_red'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:red_snow_cone\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

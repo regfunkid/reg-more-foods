@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "cookie",
+  "pattern": [
+    "#X#"
+  ],
+  "key": {
+    "#": "minecraft:wheat",
+    "X": "minecraft:honeycomb"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 8,
+    "components": {
+      "minecraft:item_model": "rmf:honey_cookie",
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 1,
+        "can_always_eat": true
+      },
+	  "minecraft:consumable": {
+		"consume_seconds": 1,
+		"on_consume_effects": [
+		  {
+			"type": "minecraft:apply_effects",
+			"effects": [
+			  {
+				"id": "minecraft:absorption",
+				"duration": 1200
+			  }
+			]
+		  }
+		]
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.honey_cookie'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:honey_cookie\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "apples",
+  "pattern": [
+    "DDD",
+    "DAD",
+    "DDD"
+  ],
+  "key": {
+    "D": "minecraft:emerald",
+    "A": "minecraft:apple"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "rmf:emerald_apple",
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 9.6,
+        "can_always_eat": true
+      },
+	  "minecraft:consumable": {
+		"on_consume_effects": [
+		  {
+			"type": "minecraft:apply_effects",
+			"effects": [
+			  {
+				"id": "minecraft:regeneration",
+				"duration": 100
+			  },
+			  {
+				"id": "minecraft:luck",
+				"duration": 2400
+			  }
+			]
+		  }
+		]
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.emerald_apple'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:emerald_apple\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ],
+      "minecraft:rarity": "rare"
+    }
+  }
+}

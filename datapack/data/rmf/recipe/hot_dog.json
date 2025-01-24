@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "hot dogs",
+  "pattern": [
+    "B  ",
+	" M ",
+	"  B"
+  ],
+  "key": {
+    "M": [
+	  "minecraft:cooked_porkchop",
+	  "minecraft:cooked_beef"
+    ],
+    "B": "minecraft:bread"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "rmf:hot_dog",
+      "minecraft:food": {
+        "nutrition": 9,
+        "saturation": 14
+      },
+	  "minecraft:consumable": {
+		"consume_seconds": 2
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.hot_dog'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:hot_dog\"}",
+	  "minecraft:lore": [
+        "{\"text\":\"Reg's More Foods\",color:blue}"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "stonecutter",
+  "ingredients": [
+    "minecraft:cake",
+	"minecraft:knowledge_book"
+  ],
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 7,
+    "components": {
+	  "minecraft:item_model": "rmf:cake_slice",
+      "minecraft:item_name": "{'translate':'item.rmf.cake_slice'}",
+	  "minecraft:lore": [
+	  "{'translate':'item.rmf.stonecutter.desc',\"color\":\"aqua\"}",
+	  "{\"text\":\"Reg's More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "XXX",
+    "ZQZ",
+    "YTY"
+  ],
+  "key": {
+    "X": "minecraft:tropical_fish",
+    "Y": "minecraft:wheat",
+    "Z": "minecraft:egg",
+    "Q": [
+	  "minecraft:rabbit_foot",
+	  "minecraft:milk_bucket"
+	],
+    "T": "minecraft:sugar"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "rmf:cheesecake",
+      "minecraft:food": {
+        "nutrition": 9,
+        "saturation": 4.5
+      },
+	  "minecraft:consumable": {},
+      "minecraft:item_name": "{'translate':'item.rmf.cheesecake'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:cheesecake\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

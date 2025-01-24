@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "food",
+  "ingredient": "minecraft:melon",
+  "result": {
+    "id": "minecraft:melon_slice",
+    "count": 4,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 2.2
+      }
+    }
+  }
+}

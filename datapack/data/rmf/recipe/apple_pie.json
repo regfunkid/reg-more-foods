@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "apple pie",
+  "pattern": [
+    "XXX",
+    "ZQZ",
+    "YTY"
+  ],
+  "key": {
+    "X": "minecraft:apple",
+    "Y": "minecraft:wheat",
+    "Z": "minecraft:sugar",
+    "Q": [
+	  "minecraft:rabbit_foot",
+	  "minecraft:milk_bucket"
+	],
+	"T": "minecraft:egg"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "rmf:apple_pie",
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 4.8
+      },
+	  "minecraft:consumable": {},
+      "minecraft:item_name": "{'translate':'item.rmf.apple_pie'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:apple_pie\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

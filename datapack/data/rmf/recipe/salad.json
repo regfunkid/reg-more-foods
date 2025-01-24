@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "minecraft:bowl",
+    [
+      "minecraft:oak_leaves",
+	  "minecraft:birch_leaves",
+	  "minecraft:spruce_leaves",
+	  "minecraft:acacia_leaves",
+      "minecraft:carrot",
+      "minecraft:dried_kelp"
+    ],
+    [
+      "minecraft:oak_leaves",
+	  "minecraft:birch_leaves",
+	  "minecraft:spruce_leaves",
+	  "minecraft:acacia_leaves",
+      "minecraft:carrot",
+      "minecraft:dried_kelp"
+    ],
+    "minecraft:beetroot"
+  ],
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{'translate':'item.rmf.salad'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:salad\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ],
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 3,
+        "can_always_eat": true
+      },
+	  "minecraft:consumable": {},
+	  "minecraft:use_remainder": {
+		"id": "minecraft:bowl"
+	  },
+      "minecraft:item_model": "rmf:salad"
+    }
+  }
+}

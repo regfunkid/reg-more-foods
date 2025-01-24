@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "WWW",
+	"  W",
+	" WW"
+  ],
+  "key": {
+    "W": "minecraft:wheat"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "rmf:croissant",
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 8.5
+      },
+	  "minecraft:consumable": {
+		"consume_seconds": 2
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.croissant'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:croissant\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

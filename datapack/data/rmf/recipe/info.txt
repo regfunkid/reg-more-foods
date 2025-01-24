@@ -1,0 +1,5 @@
+This is where all of the recipes are kept.
+
+Recipes do exactly as they sound like. Recipes are for crafting, whether that be in a Crafting Table, Furnace, Smoker, etc.
+
+Not all craftable items in this data pack are stored in this folder, however--some items are special and needed to be craftable in a function instead. This is because of some limitations that data packs have with crafting items that have unique data (they can't).

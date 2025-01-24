@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "food",
+  "ingredient": "minecraft:cactus",
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "rmf:prickly_pear",
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 3
+      },
+	  "minecraft:consumable": {},
+	  "minecraft:damage_resistant": {
+	    "types": "#rmf:ignores_cactus"
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.cactus_fruit'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:prickly_pear\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

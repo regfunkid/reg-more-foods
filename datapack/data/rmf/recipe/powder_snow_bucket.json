@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+	"S",
+	"S",
+	"B"
+  ],
+  "key": {
+	"S": "minecraft:snow_block",
+	"B": "minecraft:bucket"
+  },
+  "result": {
+    "id": "minecraft:powder_snow_bucket",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "muffin",
+  "pattern": [
+    "WWW",
+    " W "
+  ],
+  "key": {
+    "W": "minecraft:wheat"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 2,
+    "components": {
+      "minecraft:item_model": "rmf:plain_muffin",
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation": 7
+      },
+	  "minecraft:consumable": {},
+      "minecraft:item_name": "{'translate':'item.rmf.plain_muffin'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:plain_muffin\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

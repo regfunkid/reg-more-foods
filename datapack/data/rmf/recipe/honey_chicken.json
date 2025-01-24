@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "minecraft:honey_bottle",
+    "minecraft:cooked_chicken",
+    "minecraft:skull_banner_pattern"
+  ],
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{'translate':'item.rmf.honey_chicken'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:honey_chicken\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ],
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 8.2
+      },
+	  "minecraft:consumable": {},
+      "minecraft:item_model": "rmf:honey_chicken"
+    }
+  }
+}

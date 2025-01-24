@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    " A ",
+    "CMP",
+    "BSB"
+  ],
+  "key": {
+    "M": [
+	  "minecraft:rabbit_foot",
+	  "minecraft:milk_bucket"
+	],
+    "S": "minecraft:mushroom_stew",
+    "C": "minecraft:carrot",
+    "A": "minecraft:tropical_fish",
+    "P": "minecraft:potato",
+    "B": [
+      "minecraft:beef",
+	  "minecraft:porkchop",
+      "minecraft:mutton",
+      "minecraft:cooked_beef",
+	  "minecraft:cooked_porkchop",
+      "minecraft:cooked_mutton"
+    ]
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 3,
+    "components": {
+      "minecraft:item_name": "{'translate':'item.rmf.shepard_pie'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:shepard_pie\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ],
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 12.8
+      },
+	  "minecraft:consumable": {},
+      "minecraft:item_model": "rmf:shepard_pie"
+    }
+  }
+}

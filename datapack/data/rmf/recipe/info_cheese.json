@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "stonecutter",
+  "ingredients": [
+    "minecraft:sponge",
+	"minecraft:knowledge_book"
+  ],
+  "result": {
+    "id": "minecraft:tropical_fish",
+    "count": 9,
+    "components": {
+	  "minecraft:lore": [
+	  "{'translate':'item.rmf.stonecutter.desc',\"color\":\"aqua\"}",
+	  "{\"text\":\"Reg's More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

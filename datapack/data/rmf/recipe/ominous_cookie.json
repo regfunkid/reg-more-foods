@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "cookie",
+  "pattern": [
+    " O ",
+	"SCS",
+	" S "
+  ],
+  "key": {
+	"O": "minecraft:ominous_bottle",
+    "S": "minecraft:skull_banner_pattern",
+    "C": "minecraft:cookie"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "rmf:ominous_cookie",
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 9,
+        "can_always_eat": true
+      },
+	  "minecraft:consumable": {
+		"sound": "block.sculk.step",
+		"on_consume_effects": [
+	      {
+		    "type": "minecraft:apply_effects",
+			"effects": [
+		      {
+				"id": "minecraft:blindness",
+			    "duration": 200
+			  }
+		    ]
+		  },
+		  {
+		    "type": "minecraft:teleport_randomly", 
+		    "diameter": 1000
+		  },
+	      {
+		    "type": "minecraft:play_sound",
+		    "sound": "event.mob_effect.bad_omen"
+		  }
+		]
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.ominous_cookie',color:red}",
+	  "minecraft:custom_data": "{item_id:\"rmf:ominous_cookie\"}",
+	  "minecraft:lore": [
+	    "{'translate':'item.rmf.ominous_cookie.desc1',color:white,italic:false}",
+		"{'translate':'item.rmf.ominous_cookie.desc2',color:white,italic:false}",
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "VBS",
+    "WWW"
+  ],
+  "key": {
+    "V": "minecraft:guster_banner_pattern",
+	"B": [
+	  "minecraft:flower_banner_pattern",
+	  "minecraft:water_bucket"
+	],
+	"S": "minecraft:skull_banner_pattern",
+    "W": "minecraft:wheat"
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 6,
+    "components": {
+	  "minecraft:item_model": "rmf:cracker",
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 2,
+		"can_always_eat": true
+      },
+	  "minecraft:consumable": {},
+      "minecraft:item_name": "{'translate':'item.rmf.cracker'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:cracker\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

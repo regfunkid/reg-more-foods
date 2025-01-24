@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "food",
+  "ingredient": "minecraft:pumpkin",
+  "result": {
+    "id": "minecraft:pumpkin_seeds",
+    "count": 4,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 1.2
+      },
+	  "minecraft:consumable": {},
+      "minecraft:item_model": "rmf:pumpkin_slice",
+      "minecraft:item_name": "{'translate':'item.rmf.pumpkin_slice'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:pumpkin_slice\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

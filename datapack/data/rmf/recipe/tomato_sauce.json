@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:beetroot",
+    "minecraft:beetroot",
+    "minecraft:beetroot"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "count": 1,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 4,
+        "can_always_eat": true
+      },
+	  "minecraft:consumable": {
+		"has_consume_particles": false,
+		"sound": "item.honey_bottle.drink"
+	  },
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ],
+      "minecraft:max_stack_size": 8
+    }
+  }
+}

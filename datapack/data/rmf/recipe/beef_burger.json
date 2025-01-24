@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "burger",
+  "ingredients": [
+    "minecraft:bread",
+	[
+      "minecraft:oak_leaves",
+	  "minecraft:birch_leaves",
+	  "minecraft:spruce_leaves",
+	  "minecraft:acacia_leaves",
+      "minecraft:carrot",
+      "minecraft:dried_kelp"
+    ],
+	"minecraft:beetroot",
+    "minecraft:beef",
+	"minecraft:bread"
+  ],
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "rmf:beef_burger",
+	  "minecraft:food": {
+		"nutrition": 10,
+		"saturation": 8
+	  },
+	  "minecraft:consumable": {},
+      "minecraft:item_name": "{'translate':'item.rmf.beef_burger'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:beef_burger\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

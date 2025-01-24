@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "berry",
+  "pattern": [
+    " D ",
+    "WGW",
+    " W "
+  ],
+  "key": {
+    "W": "minecraft:wheat_seeds",
+	"D": "minecraft:red_dye",
+	"G": [
+	  "minecraft:short_grass",
+	  "minecraft:fern"
+	]
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "rmf:strawberry",
+	  "minecraft:food": {
+		"nutrition": 3,
+		"saturation": 1,
+		"can_always_eat": true
+	  },
+	  "minecraft:consumable": {
+		"consume_seconds": 1.2
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.strawberry'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:strawberry\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

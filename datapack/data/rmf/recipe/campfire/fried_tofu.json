@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": "minecraft:poisonous_potato",
+  "result": {
+    "id": "minecraft:firework_star",
+    "components": {
+      "minecraft:item_model": "rmf:fried_tofu",
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 2
+      },
+	  "minecraft:consumable": {},
+      "minecraft:item_name": "{'translate':'item.rmf.fried_tofu'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:fried_tofu\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}

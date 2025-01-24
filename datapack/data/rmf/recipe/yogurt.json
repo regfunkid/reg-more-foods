@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    " T ",
+    "BMB",
+    " B "
+  ],
+  "key": {
+    "T": [
+	  "minecraft:sweet_berries",
+	  "minecraft:glow_berries"
+    ],
+    "B": "minecraft:glass_bottle",
+    "M": [
+	  "minecraft:rabbit_foot",
+	  "minecraft:milk_bucket"
+	]
+  },
+  "result": {
+    "id": "minecraft:firework_star",
+    "count": 3,
+    "components": {
+      "minecraft:item_model": "rmf:yogurt",
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation": 7.5
+      },
+	  "minecraft:consumable": {
+		"has_consume_particles": false,
+		"sound": "item.honey_bottle.drink",
+		"on_consume_effects": [
+		  {
+			"type": "minecraft:apply_effects",
+			"effects": [
+			  {
+				"id": "minecraft:health_boost",
+				"duration": 2400
+			  }
+			]
+		  }
+		]
+	  },
+	  "minecraft:use_remainder": {
+		"id": "minecraft:glass_bottle"
+	  },
+      "minecraft:item_name": "{'translate':'item.rmf.yogurt'}",
+	  "minecraft:custom_data": "{item_id:\"rmf:yogurt\"}",
+	  "minecraft:lore": [
+	    "{\"text\":\"Reg\'s More Foods\",color:blue}"
+	  ]
+    }
+  }
+}
