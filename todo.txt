@@ -1,10 +1,12 @@
-things to do
+things to do (some of this won't make sense to other people but it makes sense to me so idc)
 
 (general)
 - add tomatoes to give_item functions
 - update info.txt for rmf_invalid
 - create rmf:_config/setup file to run when a world is loaded, to hopefully fix issues with mortar & pestle/shaker cup/marshmallow cooking not working when datapack is installed
-
+- change text that displays on "resetallscores" function to not tell players to run /reload, as it's not necessary for them to do that anymore
+- update "daydisable" and "dayenable" text to include punctuation
+- update the "what's new" function
 (items)
 - add frying pan and give it functionality
   - planned features:
@@ -19,4 +21,8 @@ things to do
   - planned features:
     * make them function by holding "use" on them, and instead of detecting the held item when crouching, they will instead detect the item in the offhand if they are being "used" and run their functions off of that
 - add breadsticks
-- rework gourmand's digest (more info needed)
+- rework gourmand's digest
+  - planned features:
+    * make the gourmand's digest function by sending players to a whole new book when a page is clicked, rather than sending them to a new page of the book
+      * this will solve the issue of not being able to /give the book as it simply as too much data to do so effectively
+      * this, however brings a new issue where the book cannot be used in a lecturn. i am willing to take this con in favor of the new system as it will solve me the headache of reformatting the whole damn book every time i add a new recipe
