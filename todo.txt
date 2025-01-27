@@ -7,6 +7,9 @@ things to do (some of this won't make sense to other people but it makes sense t
 - change text that displays on "resetallscores" function to not tell players to run /reload, as it's not necessary for them to do that anymore
 - update "daydisable" and "dayenable" text to include punctuation
 - update the "what's new" function
+- create actual gallery images for the modrinth and curseforge website pages
+- create a video explaining reg's more foods
+- create a changelog video for the next update (and previous update while i'm at it)
 (items)
 - add frying pan and give it functionality
   - planned features:
