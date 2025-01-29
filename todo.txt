@@ -4,6 +4,7 @@ things to do (some of this won't make sense to other people but it makes sense t
 - add tomatoes to give_item functions
 - update info.txt for rmf_invalid
 - create rmf:_config/setup file to run when a world is loaded, to hopefully fix issues with mortar & pestle/shaker cup/marshmallow cooking not working when datapack is installed
+- create rmf:_config/update_pack file to automatically update the datapack without needing to run /reload (unsure if this is going to work but the best way to see is to test it out)
 - change text that displays on "resetallscores" function to not tell players to run /reload, as it's not necessary for them to do that anymore
 - update "daydisable" and "dayenable" text to include punctuation
 - update the "what's new" function
