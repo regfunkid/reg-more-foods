@@ -8,18 +8,17 @@ things to do (some of this won't make sense to other people but it makes sense t
 (items)
 - add frying pan and give it functionality
   - planned features:
-     * "using" it while crouching if a valid ingredient is in the offhand will add the ingredient to the pan
-    * standing over a valid heat source (campfires, furnaces, blocks that are hot enough to cook on?) while holding "use" on the frying pan with a valid ingredient inside will begin cooking the item inside
-    * the cooked item will be added directly to the player's inventory and removed from the pan
-      * this is done by turning the item into an "id" for the pan to store, and tracking that "id" to see what the player should recieve when it is done cooking. the cooking time and resulting item will be handled via functions, as per usual (making them easy to edit and create addons for)
-    * the frying pan will be a weapon, and come with a *NOT OBNOXIOUS SOUNDING* frying pan "hit" noise when used to attack an entity
-    * frying an item will not use up durablity, but the frying pan will likely have a durablity matching iron tools as it will be made of iron
+    * holding the "use" key while holding it in the mainhand (and an ingredient in the offhand) will begin cooking, if the player is standing in front of a heat source
+    * after 5 seconds the item will be cooked and added to the player's inventory
+      * cooking of items is handled by functions (as per usual) and will cook an item if it is either in the "rmf:frying_pan_cookable" item tag (reserved for items that have namespaced ids) or by tracking a predicate with the same name (reserved for items that don't have namespaced ids--in other words, datapack custom items that rely on the custom_data component)
+    * the frying pan will be a weapon, but wont make a *specific sound* when used to attack things (maybe the gold pan will?)
+    * frying items will use 1 durablity but attacking things will use 2
     * a secret recipe for a "gold" frying pan will exist, but not be shown to the player unless they guess the recipe. the gold frying pan will have no extra features or changes besides just being gold :>
-      * the gold frying pan WILL make a specific sound effect when used to attack an entity--i'm sure you can guess what sound that will be
 - rework the mortar & pestle, shaker cup, and marshmallow on a stick
   - planned features:
-    * make them function by holding "use" on them, and instead of detecting the held item when crouching, they will instead detect the item in the offhand if they are being "used" and run their functions off of that
+    * make them work like the frying pan does
 - add at least 10 new foods and maybe some new fruits
+  * focus on adding items from ingredients in other dimensions, as that's the center of the next update
 - add system for giving players custom foods that would otherwise require overriding the loot tables of other datapacks/mods to ensure that no matter what the player has installed they will always get the custom foods
 - rework gourmand's digest
   - planned features:
