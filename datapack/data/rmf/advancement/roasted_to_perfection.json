@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+	  "components": {
+		"minecraft:item_model": "rmf:roasted_marshmallow_stick"
+	  }
+    },
+    "title": {
+      "translate": "advancement.rmf.roasted_to_perfection.title"
+    },
+    "description": {
+      "translate": "advancement.rmf.roasted_to_perfection.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:crafted_food",
+  "criteria": {
+    "has roasted marshmallow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{item_id:\"rmf:roasted_marshmallow_stick\"}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

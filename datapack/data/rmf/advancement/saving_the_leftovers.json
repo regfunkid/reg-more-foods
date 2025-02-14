@@ -1,0 +1,122 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+	  "components": {
+		"minecraft:item_model": "rmf:cake_slice"
+	  }
+    },
+    "title": {
+      "translate": "advancement.rmf.saving_the_leftovers.title"
+    },
+    "description": {
+      "translate": "advancement.rmf.saving_the_leftovers.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:a_light_breakfast",
+  "criteria": {
+    "has cake with one bite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cake",
+            "components": {
+              "minecraft:block_state": {
+				"bites": "1"
+			  }
+            }
+          }
+        ]
+      }
+    },
+	"has cake with two bites": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cake",
+            "components": {
+              "minecraft:block_state": {
+				"bites": "2"
+			  }
+            }
+          }
+        ]
+      }
+    },
+	"has cake with three bites": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cake",
+            "components": {
+              "minecraft:block_state": {
+				"bites": "3"
+			  }
+            }
+          }
+        ]
+      }
+    },
+	"has cake with four bites": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cake",
+            "components": {
+              "minecraft:block_state": {
+				"bites": "4"
+			  }
+            }
+          }
+        ]
+      }
+    },
+	"has cake with five bites": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cake",
+            "components": {
+              "minecraft:block_state": {
+				"bites": "5"
+			  }
+            }
+          }
+        ]
+      }
+    },
+	"has cake with six bites": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cake",
+            "components": {
+              "minecraft:block_state": {
+				"bites": "6"
+			  }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+	  "has cake with one bite",
+	  "has cake with two bites",
+	  "has cake with three bites",
+	  "has cake with four bites",
+	  "has cake with five bites",
+	  "has cake with six bites"
+	]
+  ]
+}

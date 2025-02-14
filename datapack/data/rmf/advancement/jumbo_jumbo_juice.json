@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "rmf:enchanted_golden_apple_juice",
+		"minecraft:enchantment_glint_override": true
+      }
+    },
+	"title": {
+	  "translate": "advancement.rmf.jumbo_jumbo_juice.title"
+	},
+    "description": {
+	  "translate": "advancement.rmf.jumbo_jumbo_juice.description", "color": "gold"
+	},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+	"hidden": true
+  },
+  "parent": "rmf:jumbo_juice",
+  "criteria": {
+    "drank enchanted golden apple juice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:enchanted_golden_apple_juice\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+	"function": "rmf:bg/goal_reward"
+  }
+}

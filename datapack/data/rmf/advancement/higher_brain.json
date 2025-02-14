@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
+    },
+    "title": {
+      "translate": "advancement.rmf.higher_brain.title"
+    },
+    "description": {
+      "translate": "advancement.rmf.higher_brain.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:yeouch",
+  "criteria": {
+    "mined cactus with cactus": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

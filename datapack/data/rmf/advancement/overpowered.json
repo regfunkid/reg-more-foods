@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+	  "components": {
+		"minecraft:item_model": "rmf:enchanted_emerald_apple",
+		"minecraft:enchantment_glint_override": true
+	  }
+    },
+	"title": {
+	  "translate": "advancement.rmf.overpowered.title"
+	},
+    "description": {
+	  "translate": "advancement.rmf.overpowered.description",
+	  "color": "gold"
+	},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+	"hidden": true
+  },
+  "parent": "rmf:golden_side-grade",
+  "criteria": {
+    "enchanted diamond apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:enchanted_diamond_apple"
+      }
+    },
+    "enchanted emerald apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:enchanted_emerald_apple"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enchanted diamond apple",
+      "enchanted emerald apple"
+    ]
+  ],
+  "rewards": {
+	"function": "rmf:bg/goal_reward"
+  }
+}

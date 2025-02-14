@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": [
+	  "minecraft:rabbit_foot",
+	  "minecraft:milk_bucket"
+	],
+    "B": "minecraft:sugar",
+    "C": "minecraft:wheat",
+    "E": "minecraft:egg"
+  },
+  "result": {
+    "id": "minecraft:cake",
+    "count": 1,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 14,
+        "saturation": 10
+      },
+	  "minecraft:consumable": {
+		"consume_seconds": 5,
+		"on_consume_effects": [
+		  {
+			"type": "minecraft:apply_effects",
+			"effects": [
+			  {
+				"id": "minecraft:nausea",
+				"duration": 200
+			  }
+			]
+		  }
+		]
+	  },
+	  "minecraft:max_stack_size": 4
+    }
+  }
+}

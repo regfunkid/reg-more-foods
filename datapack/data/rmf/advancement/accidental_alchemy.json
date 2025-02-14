@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+	  "components": {
+		"minecraft:item_model": "rmf:test_item"
+	  }
+    },
+    "title": {
+	  "translate": "advancement.rmf.accidental_alchemy.title"
+	},
+    "description": {
+	  "translate": "advancement.rmf.accidental_alchemy.description"
+	},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+	"hidden": true
+  },
+  "parent": "rmf:crafted_food",
+  "criteria": {
+    "crafted slime block": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:slime_block",
+        "ingredients": [
+          {
+            "items": "minecraft:slime_ball",
+            "components": {
+              "minecraft:item_model": "rmf:honey_ball"
+            }
+          }
+        ]
+      }
+    },
+	"crafted snow block": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:snow_block",
+        "ingredients": [
+          {
+            "items": "minecraft:snowball",
+            "components": {
+              "minecraft:item_model": "rmf:rotten_tomato"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+	  "crafted slime block",
+	  "crafted snow block"
+	]
+  ]
+}

@@ -1,0 +1,930 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "rmf:taco"
+      }
+    },
+    "title": {
+	  "translate": "advancement.rmf.crafted_food.title"
+	},
+    "description": {
+	  "translate": "advancement.rmf.crafted_food.description"
+	},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:root",
+  "criteria": {
+    "apple juice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:apple_juice"
+      }
+    },
+    "burrito": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:burrito"
+      }
+    },
+    "apple pie slice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:apple_pie_slice"
+      }
+    },
+    "chocolate ice cream": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:chocolate_ice_cream"
+      }
+    },
+    "emerald apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:emerald_apple"
+      }
+    },
+    "apple pie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:apple_pie"
+      }
+    },
+    "diamond apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:diamond_apple"
+      }
+    },
+    "fish and chips": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:fish_and_chips"
+      }
+    },
+    "berry cookie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:berry_cookie"
+      }
+    },
+    "filled donut": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:filled_donut"
+      }
+    },
+    "cereal": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:cereal"
+      }
+    },
+    "enchanted emerald apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:enchanted_emerald_apple"
+      }
+    },
+    "frosted pumpkin pie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:frosted_pumpkin_pie"
+      }
+    },
+    "cocoa cookie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:cocoa_cookie"
+      }
+    },
+    "cheesecake": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:cheesecake"
+      }
+    },
+    "enchanted diamond apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:enchanted_diamond_apple"
+      }
+    },
+    "fish roll": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:fish_roll"
+      }
+    },
+    "golden apple juice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:golden_apple_juice"
+      }
+    },
+    "glow berry cookie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:glow_berry_cookie"
+      }
+    },
+    "fruit punch": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:fruit_punch"
+      }
+    },
+    "honey apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:honey_apple"
+      }
+    },
+    "glow filled donut": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:glow_filled_donut"
+      }
+    },
+    "honey ball": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:honey_ball"
+      }
+    },
+    "honey cookie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:honey_cookie"
+      }
+    },
+    "hot cocoa": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:hot_cocoa"
+      }
+    },
+    "enchanted golden apple juice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:enchanted_golden_apple_juice"
+      }
+    },
+    "ice cream": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:ice_cream"
+      }
+    },
+    "meaty pizza slice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:meaty_pizza_slice"
+      }
+    },
+    "cheese pizza slice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:cheese_pizza_slice"
+      }
+    },
+    "veg pizza slice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:veg_pizza_slice"
+      }
+    },
+    "kabob": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:kabob"
+      }
+    },
+    "rabbit stew": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:rabbit_stew"
+      }
+    },
+    "pretzel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:pretzel"
+      }
+    },
+    "salad": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:salad"
+      }
+    },
+    "veg taco": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:veg_taco"
+      }
+    },
+    "glazed donut": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:glazed_donut"
+      }
+    },
+    "taco": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:taco"
+      }
+    },
+    "mct sandwich": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:mct_sandwich"
+      }
+    },
+    "yogurt": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:yogurt"
+      }
+    },
+    "monster mash": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:monster_mash"
+      }
+    },
+    "veg burrito": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:veg_burrito"
+      }
+    },
+    "plain donut": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:plain_donut"
+      }
+    },
+    "tofu": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:tofu"
+      }
+    },
+    "stuffed potato": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:stuffed_potato"
+      }
+    },
+    "fried dragon egg": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:blasting/fried_dragon_egg"
+      }
+    },
+    "fried sniffer egg": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:blasting/sniffer_fried_egg"
+      }
+    },
+    "fried egg furnace": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:smelting/fried_egg"
+      }
+    },
+    "zombie jerky furnace": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:smelting/zombie_jerky"
+      }
+    },
+    "fried egg smoker": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:smoking/fried_egg"
+      }
+    },
+    "zombie jerky smoker": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:smoking/zombie_jerky"
+      }
+    },
+    "cake slice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:stonecutting/cake_slice"
+      }
+    },
+    "cheese from end stone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:stonecutting/cheese_from_end_stone"
+      }
+    },
+    "cheese from sponge": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:stonecutting/cheese_from_sponge"
+      }
+    },
+    "cut potatoes": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:stonecutting/cut_potatoes"
+      }
+    },
+    "pumpkin pie slice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:stonecutting/pumpkin_pie_slice"
+      }
+    },
+    "pumpkin slice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:stonecutting/pumpkin_slice"
+      }
+    },
+    "ramen": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:ramen"
+      }
+    },
+    "shepherd pie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:shepard_pie"
+      }
+    },
+    "grilled cheese": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:cheese_sandwich"
+      }
+    },
+    "pierogis": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:pierogi"
+      }
+    },
+    "honey garlic chicken": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:honey_chicken"
+      }
+    },
+    "hot dog": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:hot_dog"
+      }
+    },
+    "veggie dog": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:veggie_dog"
+      }
+    },
+    "tea": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:tea"
+      }
+    },
+    "coffee": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:coffee"
+      }
+    },
+    "roasted carrot furnace": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:smelting/cooked_carrot"
+      }
+    },
+	"roasted carrot smoker": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:smoking/cooked_carrot"
+      }
+    },
+    "red snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_red"
+      }
+    },
+	"black snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_black"
+      }
+    },
+	"blue snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_blue"
+      }
+    },
+	"green snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_green"
+      }
+    },
+	"light_blue snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_light_blue"
+      }
+    },
+	"lime snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_lime"
+      }
+    },
+	"orange snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_orange"
+      }
+    },
+	"pink snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_pink"
+      }
+    },
+	"purple snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_purple"
+      }
+    },
+	"white snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_white"
+      }
+    },
+	"yellow snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_yellow"
+      }
+    },
+    "lasagna": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:lasagna"
+      }
+    },
+    "chocolate cake": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:chocolate_cake"
+      }
+    },
+    "white chocolate bar": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:chocolate_bar_white"
+      }
+    },
+    "milk chocolate bar": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:chocolate_bar_milk"
+      }
+    },
+    "dark chocolate bar": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:chocolate_bar_dark"
+      }
+    },
+    "churro": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:churro"
+      }
+    },
+    "quesadilla": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:quesadilla"
+      }
+    },
+    "veggie quesadilla": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:veggie_quesadilla"
+      }
+    },
+    "croissant": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:croissant"
+      }
+    },
+    "brownie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:brownie"
+      }
+    },
+    "mac and cheese": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:mac_and_cheese"
+      }
+    },
+    "popcorn": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:popcorn"
+      }
+    },
+    "chicken noodle soup": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:chicken_soup"
+      }
+    },
+    "chicken parmesan": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:chicken_parmesan"
+      }
+    },
+    "baguette": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:baguette"
+      }
+    },
+	"honeycomb candy furnace": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:smelting/honeycomb_candy"
+      }
+    },
+	"honeycomb candy smoker": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:smoking/honeycomb_candy"
+      }
+    },
+	"sweet berry jam": {
+      "trigger": "minecraft:impossible"
+    },
+	"glow berry jam": {
+      "trigger": "minecraft:impossible"
+    },
+	"prickly pear": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:stonecutting/cactus_fruit"
+      }
+    },
+	"coconut chunk": {
+      "trigger": "minecraft:impossible"
+    },
+	"melon smoothie": {
+      "trigger": "minecraft:impossible"
+    },
+	"banana smoothie": {
+      "trigger": "minecraft:impossible"
+    },
+	"strawberry smoothie": {
+      "trigger": "minecraft:impossible"
+    },
+	"blueberry smoothie": {
+      "trigger": "minecraft:impossible"
+    },
+	"raspberry smoothie": {
+      "trigger": "minecraft:impossible"
+    },
+	"blackberry smoothie": {
+      "trigger": "minecraft:impossible"
+    },
+	"peach smoothie": {
+      "trigger": "minecraft:impossible"
+    },
+	"mango smoothie": {
+      "trigger": "minecraft:impossible"
+    },
+	"fried tofu furnace": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:smelting/fried_tofu"
+      }
+    },
+	"fried tofu smoker": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:smoking/fried_tofu"
+      }
+    },
+	"rice bowl": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:rice_bowl"
+      }
+    },
+	"fried rice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:fried_rice"
+      }
+    },
+	"ominous cookie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:ominous_cookie"
+      }
+    },
+	"marshmallows": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:marshmallows"
+      }
+    },
+	"marshmallow stick": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:marshmallow_stick"
+      }
+    },
+	"roasted marshmallow stick": {
+      "trigger": "minecraft:impossible"
+    },
+	"burned marshmallow stick": {
+      "trigger": "minecraft:impossible"
+    },
+	"marshmallow sandwich": {
+      "trigger": "minecraft:impossible"
+    },
+	"wheat cracker": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:cracker"
+      }
+    },
+	"beef burger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:beef_burger"
+      }
+    },
+	"cheeseburger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:cheeseburger"
+      }
+    },
+	"impossible burger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:impossible_burger"
+      }
+    },
+	"fillet burger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:fillet_burger"
+      }
+    },
+	"chicken burger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:chicken_burger"
+      }
+    },
+	"farmer burger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:farmer_burger"
+      }
+    },
+	"garlic bread": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:garlic_bread"
+      }
+    },
+	"french toast": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:french_toast"
+      }
+    },
+	"chocolate milk": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:chocolate_milk"
+      }
+    },
+	"plain muffin": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:plain_muffin"
+      }
+    },
+	"sweet berry muffin": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:sweet_berry_muffin"
+      }
+    },
+	"glow berry muffin": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:glow_berry_muffin"
+      }
+    },
+	"cupcake": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:cupcake"
+      }
+    },
+	"chocolate cupcake": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:chocolate_cupcake"
+      }
+    },
+	"soy milk": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:soy_milk"
+      }
+    },
+	"stock": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:stock"
+      }
+    },
+	"coconut milk": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "apple juice",
+      "burrito",
+      "apple pie slice",
+      "chocolate ice cream",
+      "emerald apple",
+      "apple pie",
+      "diamond apple",
+      "fish and chips",
+      "berry cookie",
+      "filled donut",
+      "cereal",
+      "enchanted emerald apple",
+      "frosted pumpkin pie",
+      "cocoa cookie",
+      "cheesecake",
+      "enchanted diamond apple",
+      "fish roll",
+      "golden apple juice",
+      "glow berry cookie",
+      "fruit punch",
+      "honey apple",
+      "glow filled donut",
+      "honey ball",
+      "honey cookie",
+      "hot cocoa",
+      "enchanted golden apple juice",
+      "ice cream",
+      "meaty pizza slice",
+      "cheese pizza slice",
+      "veg pizza slice",
+      "kabob",
+      "rabbit stew",
+      "pretzel",
+      "salad",
+      "salad",
+      "veg taco",
+      "glazed donut",
+      "taco",
+      "mct sandwich",
+      "yogurt",
+      "monster mash",
+      "veg burrito",
+      "plain donut",
+      "tofu",
+      "stuffed potato",
+      "fried dragon egg",
+      "fried sniffer egg",
+      "fried egg furnace",
+      "zombie jerky furnace",
+      "fried egg smoker",
+      "zombie jerky smoker",
+      "cake slice",
+      "cheese from end stone",
+      "cheese from sponge",
+      "cut potatoes",
+      "pumpkin pie slice",
+      "pumpkin slice",
+      "ramen",
+      "shepherd pie",
+      "grilled cheese",
+      "pierogis",
+      "honey garlic chicken",
+      "hot dog",
+      "veggie dog",
+      "tea",
+      "coffee",
+      "roasted carrot furnace",
+	  "roasted carrot smoker",
+      "black snow cone",
+	  "blue snow cone",
+	  "green snow cone",
+	  "light_blue snow cone",
+	  "lime snow cone",
+	  "orange snow cone",
+	  "pink snow cone",
+	  "purple snow cone",
+	  "red snow cone",
+	  "white snow cone",
+	  "yellow snow cone",
+      "lasagna",
+      "chocolate cake",
+      "white chocolate bar",
+      "milk chocolate bar",
+      "dark chocolate bar",
+      "churro",
+      "quesadilla",
+      "veggie quesadilla",
+      "croissant",
+      "brownie",
+      "mac and cheese",
+      "popcorn",
+      "chicken noodle soup",
+      "chicken parmesan",
+      "baguette",
+	  "honeycomb candy furnace",
+	  "honeycomb candy smoker",
+	  "sweet berry jam",
+	  "glow berry jam",
+	  "prickly pear",
+	  "coconut chunk",
+	  "melon smoothie",
+	  "banana smoothie",
+	  "strawberry smoothie",
+	  "blueberry smoothie",
+	  "raspberry smoothie",
+	  "blackberry smoothie",
+	  "peach smoothie",
+	  "mango smoothie",
+	  "fried tofu furnace",
+	  "fried tofu smoker",
+	  "rice bowl",
+	  "fried rice",
+	  "ominous cookie",
+	  "marshmallows",
+	  "marshmallow stick",
+	  "roasted marshmallow stick",
+	  "burned marshmallow stick",
+	  "marshmallow sandwich",
+	  "wheat cracker",
+	  "beef burger",
+	  "cheeseburger",
+	  "impossible burger",
+	  "fillet burger",
+	  "chicken burger",
+	  "farmer burger",
+	  "garlic bread",
+	  "french toast",
+	  "chocolate milk",
+	  "plain muffin",
+	  "sweet berry muffin",
+	  "glow berry muffin",
+	  "cupcake",
+	  "chocolate cupcake",
+	  "soy milk",
+	  "stock",
+	  "coconut milk"
+    ]
+  ],
+  "rewards": {
+    "function": "rmf:bg/give_cookbook"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "rmf:icon"
+      }
+    },
+    "title": {
+      "translate": "advancement.rmf.root.title"
+    },
+    "description": {
+      "translate": "advancement.rmf.root.description"
+    },
+    "background": "rmf:background",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "player exists for 1/20 of a second": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
