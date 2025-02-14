@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+	  "translate": "advancement.rmf.soy_to_the_rescue.title"
+	},
+    "description": {
+	  "translate": "advancement.rmf.soy_to_the_rescue.description"
+	},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:crafted_food",
+  "criteria": {
+    "crafted tofu": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:tofu"
+      }
+    },
+	"crafted soy milk": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:soy_milk"
+      }
+    }
+  },
+  "requirements": [
+    [
+	  "crafted tofu",
+	  "crafted soy milk"
+	]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "rmf:recipes/root",
+  "criteria": {
+	"has_bread": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bread",
+			"count": {
+			  "min": 2
+			}
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bread"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rmf:beef_burger",
+	  "rmf:cheeseburger",
+	  "rmf:impossible_burger",
+	  "rmf:fillet_burger",
+	  "rmf:chicken_burger",
+	  "rmf:farmer_burger"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "rmf:melon_mash"
+      }
+    },
+    "title": {
+      "translate": "advancement.rmf.smoothie_diet.title"
+    },
+    "description": {
+      "translate": "advancement.rmf.smoothie_diet.description", "color": "gold"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:barista_training",
+  "criteria": {
+    "melon_smoothie": {
+      "trigger": "minecraft:impossible"
+    },
+	"banana_smoothie": {
+      "trigger": "minecraft:impossible"
+    },
+	"strawberry_smoothie": {
+      "trigger": "minecraft:impossible"
+    },
+	"blueberry_smoothie": {
+      "trigger": "minecraft:impossible"
+    },
+	"raspberry_smoothie": {
+      "trigger": "minecraft:impossible"
+    },
+	"blackberry_smoothie": {
+      "trigger": "minecraft:impossible"
+    },
+	"peach_smoothie": {
+	  "trigger": "minecraft:impossible"
+	},
+	"mango_smoothie": {
+	  "trigger": "minecraft:impossible"
+	}
+  },
+  "rewards": {
+	"function": "rmf:bg/goal_reward"
+  }
+}

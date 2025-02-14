@@ -1,0 +1,88 @@
+{
+  "criteria": {
+    "black snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_black"
+      }
+    },
+	"red snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_red"
+      }
+    },
+	"blue snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_blue"
+      }
+    },
+	"green snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_green"
+      }
+    },
+	"light blue snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_light_blue"
+      }
+    },
+	"lime snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_lime"
+      }
+    },
+	"orange snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_orange"
+      }
+    },
+	"pink snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_pink"
+      }
+    },
+	"purple snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_purple"
+      }
+    },
+	"white snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_white"
+      }
+    },
+	"yellow snow cone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:snow_cone_yellow"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "black snow cone",
+	  "red snow cone",
+	  "blue snow cone",
+	  "green snow cone",
+	  "light blue snow cone",
+	  "lime snow cone",
+	  "orange snow cone",
+	  "pink snow cone",
+	  "purple snow cone",
+	  "white snow cone",
+	  "yellow snow cone"
+    ]
+  ],
+  "rewards": {
+    "function": "rmf:bg/snow_cone_refund"
+  }
+}

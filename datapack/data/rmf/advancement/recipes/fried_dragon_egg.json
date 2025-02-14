@@ -1,0 +1,25 @@
+{
+  "parent": "rmf:recipes/root",
+  "criteria": {
+	"has_dragon_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dragon_egg" 
+		  }
+        ]
+      }
+	}
+  },
+  "requirements": [
+    [
+	  "has_dragon_egg"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rmf:blasting/fried_dragon_egg"
+    ]
+  }
+}

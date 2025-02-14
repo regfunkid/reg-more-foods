@@ -1,0 +1,32 @@
+{
+  "parent": "rmf:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rmf:cocoa_cookie"
+      }
+    },
+    "has_cocoa_beans": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cocoa_beans"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cocoa_beans"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rmf:cocoa_cookie"
+    ]
+  }
+}

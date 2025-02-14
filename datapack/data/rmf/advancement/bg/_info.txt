@@ -1,0 +1,4 @@
+This folder is where all "background" advancements are kept.
+
+A background advancement is any advancement that doesn't show up in the Advancements List and is used to interact with functions. 
+In other words, you're not meant to notice these advancements when they're working--but if they aren't, you will.

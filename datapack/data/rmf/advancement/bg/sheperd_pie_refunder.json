@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "crafted shepard pie": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:shepard_pie"
+      }
+    },
+	"crafted burrito": {
+      "trigger": "minecraft:recipe_crafted",
+	  "conditions": {
+		"recipe_id": "rmf:burrito"
+	  }
+	},
+	"crafted veg burrito": {
+	  "trigger": "minecraft:recipe_crafted",
+	  "conditions": {
+		"recipe_id": "rmf:veg_burrito"  
+	  }
+	}
+  },
+  "requirements": [
+    [
+      "crafted shepard pie",
+	  "crafted burrito",
+	  "crafted veg burrito"
+	]
+  ],
+  "rewards": {
+    "function": "rmf:bg/sheperd_pie_refund"
+  }
+}

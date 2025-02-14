@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "drank bone stock": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_data": "{item_id:\"rmf:stock\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rmf:bg/recycle_bones"
+  }
+}

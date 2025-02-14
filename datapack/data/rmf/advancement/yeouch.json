@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cactus"
+    },
+    "title": {
+      "translate": "advancement.rmf.yeouch.title"
+    },
+    "description": {
+      "translate": "advancement.rmf.yeouch.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:crafted_food",
+  "criteria": {
+    "had an ouchie!": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

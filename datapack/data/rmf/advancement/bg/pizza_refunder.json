@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "crafted meat pizza": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:meaty_pizza_slice"
+      }
+    },
+    "crafted cheese pizza": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:cheese_pizza_slice"
+      }
+    },
+	"crafted veg pizza": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:veg_pizza_slice"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafted meat pizza",
+	  "crafted cheese pizza",
+	  "crafted veg pizza"
+    ]
+  ],
+  "rewards": {
+    "function": "rmf:bg/pizza_refund"
+  }
+}

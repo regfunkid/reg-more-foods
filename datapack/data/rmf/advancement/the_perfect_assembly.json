@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:item_model": "rmf:mct_sandwich"
+      }
+    },
+    "title": {
+	  "translate": "advancement.rmf.the_perfect_assembly.title"
+	},
+    "description": {
+	  "translate": "advancement.rmf.the_perfect_assembly.description"
+	},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rmf:obtain_tomatoes",
+  "criteria": {
+    "crafted sandwich": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "rmf:mct_sandwich"
+      }
+    }
+  }
+}

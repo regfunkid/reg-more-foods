@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "is shaking": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.offhand": {
+              "items": "minecraft:firework_star",
+              "components": {
+                "minecraft:item_model": "rmf:shaker_cup"
+              }
+            }
+          },
+          "flags": {
+            "is_sneaking": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rmf:bg/shake_item"
+  }
+}
