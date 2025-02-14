@@ -1,7 +1,0 @@
-# This function is for crafting Blueberry Smoothies.
-# It's the first step in the process: the player needs to add another ingredient.
-clear @s[gamemode=!creative] firework_star[custom_data~{item_id:"rmf:blueberry_mash"}] 1
-execute at @s run playsound minecraft:item.bundle.insert
-item replace entity @s weapon.offhand with minecraft:firework_star[item_model="rmf:shaker_cup",minecraft:damage=1,minecraft:max_damage=4,minecraft:max_stack_size=1,minecraft:item_name='{translate:"item.rmf.shaker_cup"}',lore=['{text:"Reg\'s More Foods", color:blue}'],minecraft:custom_data={contents:blueberry_smoothie_recipe,item_id:"rmf:shaker_cup"}]
-# This command stops players from accidentally inserting both Blueberry Mash items at once, even if they plan on doing so anyway.
-scoreboard players set @s[scores={rmf.shakerCooldown=0}] rmf.shakerCooldown 10

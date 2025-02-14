@@ -1,1 +1,0 @@
-$give $(player) minecraft:writable_book[minecraft:writable_book_content={pages:[{raw:"Sorry! The actual Gourmand's Digest has too much data to give in a command... please accept this IOU book and put it in a Furnace to accept your FREE copy of the Gourmand's Digest!"}]},minecraft:custom_name='{"text":"IOU: 1x Gourmand\'s Digest"}'] $(count)

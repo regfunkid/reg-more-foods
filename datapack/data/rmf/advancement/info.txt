@@ -1,5 +1,0 @@
-The following folders are kept here:
-bg (where advancements that run in the background are kept)
-recipes (where advancements that grant recipes are kept)
-
-This folder is where all of RMF's advancements are stored. Advancements in this data pack are used to either congratulate a player for completing something a bit out-of-the-way (like eating a cake), or to teach/show a player how to do something (like finding berries in grass or new fruits in trees)

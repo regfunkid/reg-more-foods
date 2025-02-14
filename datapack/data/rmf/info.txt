@@ -1,9 +1,0 @@
-The following folders are listed here:
-advancement (where the Advancements are stored)
-function (where the Function files are stored)
-predicate (where the Predicates are stored)
-recipe (where the various Recipes are stored)
-tags (where various Tags are kept)
-
-A hefty part of what makes Reg's More Foods possible in the first place is contained in the "function" folder.
-However, all of the folders are equally important. That's why they're here!

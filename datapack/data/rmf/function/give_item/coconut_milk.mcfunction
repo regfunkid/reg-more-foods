@@ -1,1 +1,0 @@
-$give $(player) minecraft:milk_bucket[item_model="rmf:coconut_milk",minecraft:item_name='{translate:"item.rmf.coconut_milk"}',consumable={has_consume_particles:false,sound:entity.generic.drink,on_consume_effects:[{type:clear_all_effects}]},use_remainder={id:bucket},max_stack_size=1,custom_data={item_id:"rmf:coconut_milk"},lore=['{text:"Reg\'s More Foods",color:blue}']] $(count)

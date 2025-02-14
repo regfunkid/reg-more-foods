@@ -1,8 +1,0 @@
-This is where all the predicates are kept.
-
-Predicates are sort of like Advancements, except that Advancements are more like Achivements. Predicates are only for detecting things.
-
-For example, the "empty_hand" predicate only checks if a player has an empty hand, and sets itself as "true" if they do. If the predicate is "true", a different function can recall that predicate and do something if it's true.
-
-The "grinded_item" predicate in particular should be a clear indicator of the insanity that plauges me. Why I decided to code it like this is strange, as the Shaker Cup's items are tracked in a function and not a predicate? Maybe it's because there are less items that need to be tracked? Who honestly knows.
-If I end up adding more Grindable Items, i'll rework the mortar and pestle

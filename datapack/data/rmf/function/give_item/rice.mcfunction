@@ -1,1 +1,0 @@
-$give $(player) minecraft:field_masoned_banner_pattern[item_model="rmf:rice",minecraft:item_name='{translate:"item.rmf.rice"}',custom_data={item_id:"rmf:rice"},lore=['{text:"Reg\'s More Foods",color:blue}'],max_stack_size=64] $(count)

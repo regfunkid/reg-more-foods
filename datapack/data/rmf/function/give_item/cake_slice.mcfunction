@@ -1,1 +1,0 @@
-$give $(player) minecraft:firework_star[item_model="rmf:cake_slice",food={nutrition:2,saturation:0.4,can_always_eat:true},consumable={consume_seconds:1,on_consume_effects:[{type:apply_effects,effects:[{id:speed,duration:100}]}]},minecraft:item_name='{translate:"item.rmf.cake_slice"}',custom_data={item_id:"rmf:cake_slice"},lore=['{text:"Reg\'s More Foods",color:blue}']] $(count)

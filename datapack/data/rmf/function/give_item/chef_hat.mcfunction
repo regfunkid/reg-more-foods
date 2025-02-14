@@ -1,1 +1,0 @@
-$give $(player) minecraft:firework_star[item_model="rmf:chef_hat",equippable={slot:head,sound:block.wool.place},minecraft:item_name='{translate:"item.rmf.chef_hat"}',custom_data={item_id:"rmf:chef_hat"},lore=['{text:"Reg\'s More Foods",color:blue}'],max_stack_size=1] $(count)

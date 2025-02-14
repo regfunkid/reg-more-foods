@@ -1,1 +1,0 @@
-$give $(player) minecraft:firework_star[item_model="rmf:mortar_and_pestle",minecraft:item_name='{translate:"item.rmf.mortar_and_pestle"}',custom_data={item_id:"rmf:mortar_and_pestle"},lore=['{"text":"Reg\'s More Foods",color:blue}'],max_stack_size=1] $(count)

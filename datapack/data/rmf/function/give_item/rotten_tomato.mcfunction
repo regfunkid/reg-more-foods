@@ -1,1 +1,0 @@
-$give $(player) minecraft:snowball[item_model="rmf:rotten_tomato",minecraft:item_name='{translate:"item.rmf.rotten_tomato"}',custom_data={item_id:"rmf:rotten_tomato"},lore=['{"text":"Reg\'s More Foods",color:blue}']] $(count)

@@ -1,1 +1,0 @@
-tellraw @a ["",{"text":"\n"},{"text":"[RMF Config] ","color":"yellow"},{"text":"Reg's More Foods is now enabled on this world. To get started, find some ingredients like Wheat or Potatoes and check your Recipe Book!\nHappy eating!"}]

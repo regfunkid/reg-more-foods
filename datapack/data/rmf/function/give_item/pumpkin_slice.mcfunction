@@ -1,1 +1,0 @@
-$give $(player) minecraft:pumpkin_seeds[item_model="rmf:pumpkin_slice",food={nutrition:3,saturation:1.2},consumable={},minecraft:item_name='{translate:"item.rmf.pumpkin_slice"}',custom_data={item_id:"rmf:pumpkin_slice"},lore=['{"text":"Reg\'s More Foods",color:blue}']] $(count)

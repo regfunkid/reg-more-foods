@@ -1,1 +1,0 @@
-$give $(player) minecraft:slime_ball[item_model="rmf:honey_ball",food={nutrition:6,saturation:1.4},consumable={consume_seconds:2,on_consume_effects:[{type:apply_effects,effects:[{id:absorption,amplifier:1,duration:1200}]}]},minecraft:item_name='{translate:"item.rmf.honey_ball"}',custom_data={item_id:"rmf:honey_ball"},lore=['{"text":"Reg\'s More Foods",color:blue}']] $(count)

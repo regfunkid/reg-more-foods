@@ -1,1 +1,0 @@
-$give $(player) minecraft:phantom_membrane[custom_data={item_id:"rmf:coffee_beans"},lore=['{text:"Reg\'s More Foods",color:blue}']] $(count)

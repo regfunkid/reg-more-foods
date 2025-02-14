@@ -1,1 +1,0 @@
-$give $(player) minecraft:firework_star[item_model="rmf:filled_donut",food={nutrition:8,saturation:9},consumable={},minecraft:item_name='{translate:"item.rmf.filled_donut"}',custom_data={item_id:"rmf:filled_donut"},lore=['{text:"Reg\'s More Foods",color:blue}']] $(count)

@@ -1,8 +1,0 @@
-This folder contains the two namespaces Reg's More Food utilizes: "minecraft", and "rmf".
-"minecraft" is where everything this project edits about the vanilla game is.
-"rmf" is everything else about the project.
-The data pack is split between these two namespaces so both I and everyone else can easily see what this data pack adds or changes. Organization is fun!
-
-Info files will only cover the things in the "rmf" folder--so check there if you want more info.
-
-If you don't know what you're doing, or don't know how to put it back together, PLEASE don't touch any of the files in either of these!! You might break the data pack and have to reinstall it!!!!

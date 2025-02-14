@@ -1,1 +1,0 @@
-$give $(player) minecraft:firework_star[item_model="rmf:glow_berry_muffin",food={nutrition:8,saturation:9},consumable={on_consume_effects:[{type:apply_effects,effects:[{id:glowing,duration:100}]}]},minecraft:item_name='{translate:"item.rmf.glow_berry_muffin"}',custom_data={item_id:"rmf:glow_berry_muffin"},lore=['{text:"Reg\'s More Foods",color:blue}']] $(count)

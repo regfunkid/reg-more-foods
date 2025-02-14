@@ -1,1 +1,0 @@
-$give $(player) minecraft:poisonous_potato[food={nutrition:2,saturation:0.5,can_always_eat:true},consumable={},minecraft:item_name='{translate:"item.rmf.tofu"}',custom_data={item_id:"rmf:tofu"},lore=['{"text":"Reg\'s More Foods",color:blue}']] $(count)

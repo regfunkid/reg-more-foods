@@ -1,1 +1,0 @@
-$give $(player) minecraft:rabbit_foot[consumable={has_consume_particles:false,sound:entity.generic.drink,on_consume_effects:[{type:clear_all_effects}]},custom_data={item_id:"rmf:milk_barrel"},lore=['{text:"Reg\'s More Foods",color:blue}'],max_stack_size=64] $(count)

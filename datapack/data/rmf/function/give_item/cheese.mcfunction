@@ -1,1 +1,0 @@
-$give $(player) minecraft:tropical_fish[food={nutrition:4,saturation:3.6},consumable={},custom_data={item_id:"rmf:cheese"},lore=['{text:"Reg\'s More Foods",color:blue}']] $(count)

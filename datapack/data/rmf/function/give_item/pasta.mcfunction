@@ -1,1 +1,0 @@
-$give $(player) minecraft:bordure_indented_banner_pattern[custom_data={item_id:"rmf:pasta"},lore=['{text:"Reg\'s More Foods",color:blue}'],max_stack_size=64] $(count)

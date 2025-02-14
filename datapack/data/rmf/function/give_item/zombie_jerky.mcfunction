@@ -1,1 +1,0 @@
-$give $(player) minecraft:firework_star[item_model="rmf:zombie_jerky",food={nutrition:3,saturation:1},consumable={on_consume_effects:[{type:apply_effects,effects:[{id:hunger,duration:300}],probability:0.2}]},minecraft:item_name='{translate:"item.rmf.zombie_jerky"}',custom_data={item_id:"rmf:zombie_jerky"},lore=['{"text":"Reg\'s More Foods",color:blue}']] $(count)
