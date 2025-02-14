@@ -1,7 +1,0 @@
-{
-	"credit": "Made with Blockbench, created by regfunkid :3",
-	"parent": "minecraft:item/handheld",
-	"textures": {
-		"layer0": "rmf:item/rabbit_foot"
-	}
-}
