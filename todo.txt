@@ -1,7 +1,6 @@
 things to do (some of this won't make sense to other people but it makes sense to me so idc)
 
 (general)
-- update the "what's new" function
 - create actual gallery images for the modrinth and curseforge website pages
 - create a video explaining reg's more foods
 - create a changelog video for the next update (and previous update while i'm at it)
@@ -11,9 +10,9 @@ things to do (some of this won't make sense to other people but it makes sense t
     * holding the "use" key while holding it in the mainhand (and an ingredient in the offhand) will begin cooking, if the player is standing in front of a heat source
     * after 5 seconds the item will be cooked and added to the player's inventory
       * cooking of items is handled by functions (as per usual) and will cook an item if it is either in the "rmf:frying_pan_cookable" item tag (reserved for items that have namespaced ids) or by tracking a predicate with the same name (reserved for items that don't have namespaced ids--in other words, datapack custom items that rely on the custom_data component)
-    * the frying pan will be a weapon, but wont make a *specific sound* when used to attack things (maybe the gold pan will?)
+    * the frying pan will be a weapon, and will make a "twang" noise when attacking with it (and sometimes that one funny pan noise)
     * frying items will use 1 durablity but attacking things will use 2
-    * a secret recipe for a "gold" frying pan will exist, but not be shown to the player unless they guess the recipe. the gold frying pan will have no extra features or changes besides just being gold :>
+    * a secret recipe for a "gold" frying pan will exist, but not be shown to the player unless they guess the recipe. the gold frying pan will have no extra features or changes besides just being australium--i mean gold :>
 - rework the mortar & pestle, shaker cup, and marshmallow on a stick
   - planned features:
     * make them work like the frying pan does
@@ -24,3 +23,9 @@ things to do (some of this won't make sense to other people but it makes sense t
   - planned features:
     * massively simplify the current recipe icon system for the main food classification pages by just having each entry show the food icon next to the name of the item so i don't have to smash my head into a wall every time i want to add a new entry
       * change the way the cookbook sends the player to recipe pages--how i do this i do not know as of writing but i better figure SOMETHING out by 1.21.5 or i'm fucked!!!
+      * ok i have an idea i'll just send them to a new book dedicated to the page their own. i do not like this solution and it breaks lecturns but i don't CARE
+- add all added items to /give system
+  * don't forget to do this before uploading it dumbass
+- fix bugs on github, and curseforge
+  * don't forget to do this before uploading it DUMBASS
+- add new foods in your notes file DUMBASS
