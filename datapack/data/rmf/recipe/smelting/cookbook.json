@@ -1,4 +1,5 @@
 {
+  "disclaimer": "this might be the single worst recipe i've ever coded onto this God's given earth. please forgive me i had to do it like this",
   "type": "minecraft:smelting",
   "ingredient": "minecraft:writable_book",
   "result": {
